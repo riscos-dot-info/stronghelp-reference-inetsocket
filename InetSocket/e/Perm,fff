@@ -1,0 +1,8 @@
+EPERM
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Not owner
+Value:		1
+#Wrap
+
+You are not the owner, or do not have the right to perform the operation.

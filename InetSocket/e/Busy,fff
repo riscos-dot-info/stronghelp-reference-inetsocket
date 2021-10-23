@@ -1,0 +1,8 @@
+EBUSY
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Mount device busy
+Value:		16
+#Wrap
+
+The device did not respond in time, it's probably at lunch.

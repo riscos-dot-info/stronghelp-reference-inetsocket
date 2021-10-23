@@ -1,0 +1,8 @@
+Socket_Accept  (&41203)  accept()
+#Parent !Root
+=>	R0 =	Socket descriptor of listening socket
+	R1 =	Pointer to <address=>sockaddr> to be filled in
+	R2 =	Pointer to word giving the size of the address block
+<=	R0 =	Socket descriptor for new connection
+
+#include desc_Accept

@@ -1,0 +1,8 @@
+Socket types
+The socket type is used to determine how data is sent through the socket. Three socket type are currently supported:
+
+Value	Meaning
+#Line
+1	<SOCK_STREAM>
+2	<SOCK_DGRAM>
+3	<SOCK_RAW>

@@ -1,0 +1,8 @@
+ESRCH
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : No such process
+Value:		3
+#Wrap
+
+The process specified does not exist.

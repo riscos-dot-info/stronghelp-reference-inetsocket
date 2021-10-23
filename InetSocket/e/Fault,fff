@@ -1,0 +1,8 @@
+EFAULT
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Bad address
+Value:		14
+#Wrap
+
+Attempt to access memory which does not belong to us.

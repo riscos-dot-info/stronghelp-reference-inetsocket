@@ -1,0 +1,6 @@
+Socket_Close  (&41210)  close()
+#Parent !Root
+=>	R0 =	Socket descriptor
+<=	R0 corrupted
+
+#include desc_close

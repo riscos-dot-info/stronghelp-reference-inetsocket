@@ -1,0 +1,8 @@
+EDQUOT
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Disc quota exceeded
+Value:		69
+#Wrap
+
+You have too much stuff. Delete it or you'll not be able to do anything.

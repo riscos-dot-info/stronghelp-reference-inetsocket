@@ -1,0 +1,9 @@
+# This file is included from elsewhere
+This call initiates a connection from the specified socket to a given address on another host.
+
+When used on a <raw=>Sock_Raw> or <datagram=>Sock_DGram> socket, this will simply fix the remote address for future calls to <Socket_Send> or <send>(), and this remote address can be changed by calling this routine again.
+
+For <Stream=>Sock_Stream> sockets, the stack will attempt to make a connection to the specified address, and will block until the connection is achieved or the attempt fails. If the socket has been marked non-blocking it will instead return immediately with the error <EINPROGRESS> and will continue with the connection attempt on its own.
+
+#Tab
+<C definition=>Connect>	<SWI definition=>Socket_Connect>

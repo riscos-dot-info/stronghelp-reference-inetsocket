@@ -1,0 +1,10 @@
+Socket_Sendmsg  (&4120A)  sendmsg()
+#Parent !Root
+Syntax:	int sendmsg(int s, struct <msghdr> * msg, int <flags=>MSG_>);
+Header:	NetLib -	sys/socket.h
+	Sockets -	socklib.h
+	UnixLib -	sys/socket.h
+
+Returns:	amount of data sent, or EOF if error
+
+#include desc_sendmsg

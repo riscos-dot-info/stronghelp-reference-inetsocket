@@ -1,0 +1,10 @@
+accept()  Socket_Accept  (&41203)
+#Parent !Root
+Syntax:	int accept (int s, struct <sockaddr> *name, int *namelen);
+Header:	NetLib -	sys/socket.h
+	Sockets -	socklib.h
+	UnixLib -	sys/socket.h
+
+Returns:	socket descriptor of new socket, or EOF if non-blocking socket
+
+#include desc_Accept

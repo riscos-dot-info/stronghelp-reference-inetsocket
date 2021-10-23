@@ -1,0 +1,12 @@
+ioctl()  Socket_Ioctl  (&41212)
+#Parent !Root
+Syntax:	NetLib -	int ioctl(int s, int <cmd=>desc_ioctl_ops>, ...);
+	Sockets -	int socketioctl(int s, unsigned long <cmd=>desc_ioctl_ops>, void *data);
+	UnixLib -	int ioctl(int s, int <cmd=>desc_ioctl_ops>, void *data);
+Header:	NetLib -	sys/ioctl.h
+	Sockets -	socklib.h
+	UnixLib -	sys/ioctl.h
+
+Returns:	0 for success, EOF if failed
+
+#include desc_ioctl

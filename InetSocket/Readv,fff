@@ -1,0 +1,11 @@
+readv()  Socket_Readv  (&41216)
+#Parent !Root
+Syntax:	Sockets - int socketreadv(int s, struct iovec *iov, int iovcnt);
+	UnixLib - int readv(int s, const struct iovec *iov, size_t iovcnt);
+
+Header:	Sockets -	socklib.h
+	UnixLib -	sys/uio.h
+
+Returns:	amount of data received, or EOF if error
+
+#include desc_Readv

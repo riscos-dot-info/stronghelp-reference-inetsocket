@@ -1,0 +1,5 @@
+# This file is included from elsewhere
+This call reads data from a socket in the same style as <Socket_Recv> or <recv>() except that there is no flags argument, so all flags are treated as being zero.
+
+#Tab
+<C definition=>ReadV>	<SWI definition=>Socket_ReadV>

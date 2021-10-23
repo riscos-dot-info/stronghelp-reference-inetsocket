@@ -1,0 +1,8 @@
+Socket_Read  (&41213)  read()
+#Parent !Root
+=>	R0 =	Socket descriptor
+	R1 =	Pointer to buffer for received data
+	R2 =	Size of buffer
+<=	R0 =	Amount of data received
+
+#include desc_read

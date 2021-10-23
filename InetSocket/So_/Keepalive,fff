@@ -1,0 +1,8 @@
+SO_KEEPALIVE (&8)
+#Parent SOL_SOCKET
+#Wrap off
+Meaning:	Changes whether probes will be made when idle
+Value:		&8
+#Wrap
+
+Enable or disable attempts by the stack to probe the remote end of a TCP connection when the link has been idle for some time.

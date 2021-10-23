@@ -1,0 +1,5 @@
+# This file is included from elsewhere
+(I have no documentation on this call)
+
+#Tab
+<C definition=>Sendtosm>	<SWI definition=>Socket_Sendtosm>

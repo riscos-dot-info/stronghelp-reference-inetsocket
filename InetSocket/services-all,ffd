@@ -1,0 +1,384 @@
+Internet services
+#Tab ,,fCode,
+Port	Names		Protos	Meaning
+#Line
+1	tcpmux		tu	TCP Port Service Multiplexer
+2	compressnet	tu	Management Utility
+3	compressnet	tu	Compression Process
+5	rje		tu	Remote Job Entry
+7	echo		tu	Echo
+9	discard sink null	tu	Discard
+11	systat users	tu	Active Users
+13	daytime		tu	Daytime
+15	netstat		t	Network statistics
+17	qotd quote	tu	Quote of the Day
+18	msp		tu	Message Send Protocol
+19	chargen ttytst source	tu	Character Generator
+20	ftp-data	tu	File Transfer [Default Data]
+21	ftp		tu	File Transfer [Control]
+23	telnet		tu	Telnet
+25	smtp mail	tu	Simple Mail Transfer
+27	nsw-fe		tu	NSW User System FE
+29	msg-icp		tu	MSG ICP
+31	msg-auth	tu	MSG Authentication
+33	dsp		tu	Display Support Protocol
+37	time timserver	tu	Time
+38	rap		tu	Route Access Protocol
+39	rlp resource	tu	Resource Location Protocol
+41	graphics	tu	Graphics
+42	nameserver name	tu	Host Name Server
+43	nicname whois	tu	Who Is
+44	mpm-flags	tu	MPM FLAGS Protocol
+45	mpm		tu	Message Processing Module
+46	mpm-snd		tu	MPM
+47	ni-ftp		tu	NI FTP
+48	auditd		tu	Digital Audit Daemon
+49	login		tu	Login Host Protocol
+50	re-mail-ck	tu	Remote Mail Checking Protocol
+51	la-maint	tu	IMP Logical Address Maintenance
+52	xns-time	tu	XNS Time Protocol
+53	domain nameserver	tu	Domain Name Server
+54	xns-ch		tu	XNS Clearinghouse
+55	isi-gl		tu	ISI Graphics Language
+56	xns-auth	tu	XNS Authentication
+58	xns-mail	tu	XNS Mail
+61	ni-mail		tu	NI MAIL
+62	acas		tu	ACA Services
+64	covia		tu	Communications Integrator (CI)
+65	tacacs-ds	tu	TACACS-Database Service
+66	sql*net		tu	Oracle SQL*NET
+67	bootps		tu	Bootstrap Protocol Server
+68	bootpc		tu	Bootstrap Protocol Client
+69	tftp		tu	Trivial File Transfer
+70	gopher		tu	Gopher
+71	netrjs-1	tu	Remote Job Service
+72	netrjs-2	tu	Remote Job Service
+73	netrjs-3	tu	Remote Job Service
+74	netrjs-4	tu	Remote Job Service
+76	deos		tu	Distributed External Object Store
+77	rje netrjs	tu	any private RJE service
+78	vettcp		tu	vettcp
+79	finger		tu	Finger
+80	www http	tu	World Wide Web HTTP
+81	hosts2-ns	tu	HOSTS2 Name Server
+82	xfer		tu	XFER Utility
+83	mit-ml-dev	tu	MIT ML Device
+84	ctf		tu	Common Trace Facility
+85	mit-ml-dev	tu	MIT ML Device
+86	mfcobol		tu	Micro Focus Cobol
+87	ttylink		tu	any private terminal link
+88	kerberos	tu	Kerberos
+89	su-mit-tg	tu	SU/MIT Telnet Gateway
+90	dnsix		tu	DNSIX Securit Attribute Token Map
+91	mit-dov		tu	MIT Dover Spooler
+92	npp		tu	Network Printing Protocol
+93	dcp		tu	Device Control Protocol
+94	objcall		tu	Tivoli Object Dispatcher
+95	supdup		tu	SUPDUP
+96	dixie		tu	DIXIE Protocol Specification
+97	swift-rvf	tu	Swift Remote Vitural File Protocol
+98	tacnews		tu	TAC News
+99	metagram	tu	Metagram Relay
+100	newacct		t	[unauthorized use]
+101	hostname hostname	tu	NIC Host Name Server
+102	iso-tsap	tu	ISO-TSAP
+103	gppitnp		tu	Genesis Point-to-Point Trans Net
+104	acr-nema	tu	ACR-NEMA Digital Imag. & Comm. 300
+105	csnet-ns	tu	Mailbox Name Nameserver
+106	3com-tsmux	tu	3COM-TSMUX
+107	rtelnet		tu	Remote Telnet Service
+108	snagas		tu	SNA Gateway Access Server
+109	pop2		tu	Post Office Protocol - Version 2
+110	pop3		tu	Post Office Protocol - Version 3
+111	sunrpc		tu	SUN Remote Procedure Call
+112	mcidas		tu	McIDAS Data Transmission Protocol
+113	auth authentication	tu	Authentication Service
+114	audionews	tu	Audio News Multicast
+115	sftp		tu	Simple File Transfer Protocol
+116	ansanotify	tu	ANSA REX Notify
+117	uucp-path	tu	UUCP Path Service
+118	sqlserv		tu	SQL Services
+119	nntp readnews untp	tu	Network News Transfer Protocol
+120	cfdptkt		tu	CFDPTKT
+121	erpc		tu	Encore Expedited Remote Pro.Call
+122	smakynet	tu	SMAKYNET
+123	ntp		tu	Network Time Protocol
+124	ansatrader	tu	ANSA REX Trader
+125	locus-map	tu	Locus PC-Interface Net Map Ser
+126	unitary		tu	Unisys Unitary Login
+127	locus-con	tu	Locus PC-Interface Conn Server
+128	gss-xlicen	tu	GSS X License Verification
+129	pwdgen		tu	Password Generator Protocol
+130	cisco-fna	tu	cisco FNATIVE
+131	cisco-tna	tu	cisco TNATIVE
+132	cisco-sys	tu	cisco SYSMAINT
+133	statsrv		tu	Statistics Service
+134	ingres-net	tu	INGRES-NET Service
+135	loc-srv		tu	Location Service
+136	profile		tu	PROFILE Naming System
+137	netbios-ns	tu	NETBIOS Name Service
+138	netbios-dgm	tu	NETBIOS Datagram Service
+139	netbios-ssn	tu	NETBIOS Session Service
+140	emfis-data	tu	EMFIS Data Service
+141	emfis-cntl	tu	EMFIS Control Service
+142	bl-idm		tu	Britton-Lee IDM
+143	imap2 imap imap4	tu	Interim Mail Access Protocol ??
+144	news		tu	NewS
+145	uaac		tu	UAAC Protocol
+146	iso-tp0		tu	ISO-IP0
+147	iso-ip		tu	ISO-IP
+148	cronus		tu	CRONUS-SUPPORT
+149	aed-512		tu	AED 512 Emulation Service
+150	sql-net		tu	SQL-NET
+151	hems		tu	HEMS
+152	bftp		tu	Background File Transfer Program
+153	sgmp		tu	SGMP
+154	netsc-prod	tu	NETSC
+155	netsc-dev	tu	NETSC
+156	sqlsrv	tu	SQL Service
+157	knet-cmp	tu	KNET/VM Command/Message Protocol
+158	pcmail-srv	tu	PCMail Server
+159	nss-routing	tu	NSS-Routing
+160	sgmp-traps	tu	SGMP-TRAPS
+161	snmp		tu	SNMP
+162	snmptrap	tu	SNMPTRAP
+163	cmip-man	tu	CMIP/TCP Manager
+164	cmip-agent	tu	CMIP/TCP Agent
+165	xns-courier	tu	Xerox
+166	s-net		tu	Sirius Systems
+167	namp		tu	NAMP
+168	rsvd		tu	RSVD
+169	send		tu	SEND
+170	print-srv	tu	Network PostScript
+171	multiplex	tu	Network Innovations Multiplex
+172	cl/1		tu	Network Innovations CL/1
+173	xyplex-mux	tu	Xyplex
+174	mailq		tu	MAILQ
+175	vmnet		tu	VMNET
+176	genrad-mux	tu	GENRAD-MUX
+177	xdmcp		tu	X Display Manager Control Protocol
+178	nextstep	tu	NextStep Window Server
+179	bgp		tu	Border Gateway Protocol
+180	ris		tu	Intergraph
+181	unify		tu	Unify
+182	audit		tu	Unisys Audit SITP
+183	ocbinder	tu	OCBinder
+184	ocserver	tu	OCServer
+185	remote-kis	tu	Remote-KIS
+186	kis		tu	KIS Protocol
+187	aci		tu	Application Communication Interface
+188	mumps		tu	Plus Five's MUMPS
+189	qft		tu	Queued File Transport
+190	gacp		tu	Gateway Access Control Protocol
+191	prospero	tu	Prospero Directory Service
+192	osu-nms		tu	OSU Network Monitoring System
+193	srmp		tu	Spider Remote Monitoring Protocol
+194	irc		tu	Internet Relay Chat Protocol
+195	dn6-nlm-aud	tu	DNSIX Network Level Module Audit
+196	dn6-smm-red	tu	DNSIX Session Mgt Module Audit Redir
+197	dls		tu	Directory Location Service
+198	dls-mon		tu	Directory Location Service Monitor
+199	smux		tu	SMUX
+200	src		tu	IBM System Resource Controller
+201	at-rtmp		tu	AppleTalk Routing Maintenance
+202	at-nbp		tu	AppleTalk Name Binding
+203	at-3		tu	AppleTalk Unused
+204	at-echo		tu	AppleTalk Echo
+205	at-5		tu	AppleTalk Unused
+206	at-zis		tu	AppleTalk Zone Information
+207	at-7		tu	AppleTalk Unused
+208	at-8		tu	AppleTalk Unused
+209	tam		tu	Trivial Authenticated Mail Protocol
+210	z39.50		tu	ANSI Z39.50
+211	914c/g		tu	Texas Instruments 914C/G Terminal
+212	anet		tu	ATEXSSTR
+213	ipx		tu	IPX
+214	vmpwscs		tu	VM PWSCS
+215	softpc		tu	Insignia Solutions
+216	atls		tu	Access Technology License Server
+217	dbase		tu	dBASE Unix
+218	mpp		tu	Netix Message Posting Protocol
+219	uarps		tu	Unisys ARPs
+220	imap3		tu	Interactive Mail Access Protocol v3
+221	fln-spx		tu	Berkeley rlogind with SPX auth
+222	fsh-spx		tu	Berkeley rshd with SPX auth
+223	cdc		tu	Certificate Distribution Center
+243	sur-meas	tu	Survey Measurement
+245	link		tu	LINK
+246	dsp3270		tu	Display Systems Protocol
+344	pdap		tu	Prospero Data Access Protocol
+345	pawserv		tu	Perf Analysis Workbench
+346	zserv		tu	Zebra server
+347	fatserv		tu	Fatmen Server
+348	csi-sgwp	tu	Cabletron Management Protocol
+371	clearcase	tu	Clearcase
+372	ulistserv	tu	Unix Listserv
+373	legent-1	tu	Legent Corporation
+374	legent-2	tu	Legent Corporation
+375	hassle		tu	Hassle
+376	nip		tu	Amiga Envoy Network Inquiry Proto
+377	tnETOS		tu	NEC Corporation
+378	dsETOS		tu	NEC Corporation
+379	is99c		tu	TIA/EIA/IS-99 modem client
+380	is99s		tu	TIA/EIA/IS-99 modem server
+381	hp-collector	tu	hp performance data collector
+382	hp-managed-node	tu	hp performance data managed node
+383	hp-alarm-mgr	tu	hp performance data alarm manager
+384	arns		tu	A Remote Network Server System
+385	ibm-app		tt	IBM Application
+386	asa		tu	ASA Message Router Object Def.
+387	aurp		tu	Appletalk Update-Based Routing Pro.
+388	unidata-ldm	tu	Unidata LDM Version 4
+389	ldap		tu	Lightweight Directory Access Protocol
+390	uis		tu	UIS
+391	synotics-relay	tu	SynOptics SNMP Relay Port
+392	synotics-broker	tu	SynOptics Port Broker Port
+393	dis		tu	Data Interpretation System
+394	embl-ndt	tu	EMBL Nucleic Data Transfer
+395	netcp		tu	NETscout Control Protocol
+396	netware-ip	tu	Novell Netware over IP
+397	mptn		tu	Multi Protocol Trans. Net.
+398	kryptolan	tu	Kryptolan
+400	work-sol	tu	Workstation Solutions
+401	ups		tu	Uninterruptible Power Supply
+402	genie		tu	Genie Protocol
+403	decap		tu	decap
+404	nced		tu	nced
+405	ncld		tu	ncld
+406	imsp		tu	Interactive Mail Support Protocol
+407	timbuktu	tu	Timbuktu
+408	prm-sm		tu	Prospero Resource Manager Sys. Man.
+409	prm-nm		tu	Prospero Resource Manager Node Man.
+410	decladebug	tu	DECLadebug Remote Debug Protocol
+411	rmt		tu	Remote MT Protocol
+412	synoptics-trap	tu	Trap Convention Port
+413	smsp		tu	SMSP
+414	infoseek	tu	InfoSeek
+415	bnet		tu	BNet
+416	silverplatter	tu	Silverplatter
+417	onmux		tu	Onmux
+418	hyper-g		tu	Hyper-G
+419	ariel1		tu	Ariel
+420	smpte		tu	SMPTE
+421	ariel2		tu	Ariel
+422	ariel3		tu	Ariel
+423	opc-job-start	tu	IBM Ops Planning and Control Start
+424	opc-job-track	tu	IBM Ops Planning and Control Track
+425	icad-el		tu	ICAD
+426	smartsdp	tu	smartsdp
+427	svrloc		tu	Server Location
+428	ocs_cmu		tu	OCS_CMU
+429	ocs_amu		tu	OCS_AMU
+430	utmpsd		tu	UTMPSD
+431	utmpcd		tu	UTMPCD
+432	iasd		tu	IASD
+433	nnsp		tu	NNSP
+434	mobileip-agent	tu	MobileIP-Agent
+435	mobilip-mn	tu	MobilIP-MN
+436	dna-cml		tu	DNA-CML
+437	comscm		tu	comscm
+438	dsfgw		tu	dsfgw
+439	dasp		tu	dasp
+440	sgcp		tu	sgcp
+441	decvms-sysmgt	tu	decvms-sysmgt
+442	cvc_hostd	tu	cvc_hostd
+443	https	ssl	tu	Secure Socket Layer HTTP
+444	snpp		tu	Simple Network Paging Protocol
+445	microsoft-ds	tu	Microsoft-DS
+446	ddm-rdb		tu	DDM-RDB
+447	ddm-dfm		tu	DDM-RFM
+448	ddm-byte	tu	DDM-BYTE
+449	as-servermap	tu	AS Server Mapper
+450	tserver		tu	TServer
+512	exec		t	remote process execution (authenticated by ports)
+512	biff comsat	u	mail system use to notify users of new mail received
+513	login		t	remote login like telnet (authenticated by distributed databases)
+513	who whod	u	who is logged in
+514	cmd shell	t	remote process execution (authenticated by distributed databases)
+514	syslog		u	system logging
+515	printer spooler	tu	line printer spooler
+517	talk		tu	rendezvous port for talk protocol
+518	ntalk		tu	dirivative of talk
+519	utime unixtime	tu	unixtime
+520	efs			t	extended file name server (LucasFilm?)
+520	router route routed	u	local routing (variant of Xerox NS routing protocol)
+525	timed timeserver	tu	timeserver
+526	tempo newdate	tu	newdate
+530	courier 	rpc	tu	rpc
+531	conference chat	tu	chat
+532	netnews readnews	tu	readnews
+533	netwall		tu	for emergency broadcasts
+539	apertus-ldp	tu	Apertus Technologies Load Determination
+540	uucp uucpd	tu	uucpd
+541	uucp-rlogin	tu	uucp-rlogin
+543	klogin		tu	
+544	kshell krcmd	tu	krcmd
+550	new-rwho new-who	tu	new-who
+555	dsf		tu	
+556	remotefs rfs_server rfs	tu	Brunhoff remote filesystem
+557	rdisc rfs_server	t	Acorn remote disc server
+560	rmonitor rmonitord	tu	rmonitord
+561	monitor		tu	
+562	chshell chcmd	tu	chcmd
+564	9pfs		tu	plan 9 file service
+565	whoami whoami	tu	whoami
+570	meter demon	tu	demon
+571	meter udemon	tu	udemon
+600	ipcserver	tu	Sun IPC server
+606	urm		tu	Cray Unified Resource Manager
+607	nqs		tu	nqs
+608	sift-uft	tu	Sender-Initiated/Unsolicited File Xfer
+609	npmp-trap	tu	npmp-trap
+610	npmp-local	tu	npmp-local
+611	npmp-gui	tu	npmp-gui
+634	ginad		tu	ginad
+666	mdqs		tu	
+704	elcsd errlog	tu	errlog copy/server daemon
+709	entrustmanager	tu	EntrustManager
+729	netviewdm1	tu	IBM NetView DM/6000 Server/Client
+730	netviewdm2	tu	IBM NetView DM/6000 send/tcp
+731	netviewdm3	tu	IBM NetView DM/6000 receive/tcp
+741	netgw		tu	netGW
+742	netrcs		tu	Network based Rev. Cont. Sys.
+744	flexlm		tu	Flexible License Manager
+747	fujitsu-dev	tu	Fujitsu Device Control
+748	ris-cm		tu	Russell Info Sci Calendar Manager
+749	kerberos-adm	tu	kerberos administration
+750	rfile		tu	
+751	pump		tu	
+752	qrh		tu	
+753	rrh		tu	
+754	tell send	tu	send
+758	nlogin		tu	
+759	con		tu	
+760	ns		tu	
+761	rxe		tu	
+762	quotad		tu	
+763	cycleserv	tu	
+764	omserv		tu	
+765	webster		tu	
+767	phonebook phone	tu	phone
+769	vid		tu	
+770	cadlock	tu	
+771	rtip		tu	
+772	cycleserv2	tu	
+773	submit		tu	
+774	rpasswd		tu	
+775	entomb		tu	
+776	wpages		tu	
+780	wpgs		tu	
+786	concert		tu	Concert
+800	mdbs_daemon	tu	
+801	device		tu	
+996	xtreelic	tu	XTREE License Server
+997	maitrd		tu	
+998	busboy		tu	
+999	garcon		tu	
+1080	socks		t	SOCKS firewall server
+
+Acorn specific services :
+32768	aun-data	u	
+32769	aun-atp		u	
+32770	freeway1	u	
+32771	freeway2	u	
+49171	sharefs		u	

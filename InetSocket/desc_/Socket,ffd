@@ -1,0 +1,7 @@
+# This file is included from elsewhere
+This call creates a new socket of a given type and using a given protocol. The internet protocol family (<PF_INET>) is the only one supported by this module.
+
+Note that this call will not give the socket an address, or connect it to any remote address. The socket can be given an address explicitly using the <Socket_Bind> or <bind>() call, or it will be assigned one automatically when it is first used to send data or to connect to a remote address.
+
+#Tab
+<C definition=>Socket>	<SWI definition=>Socket_Creat>

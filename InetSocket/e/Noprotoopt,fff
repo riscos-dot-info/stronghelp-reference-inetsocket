@@ -1,0 +1,8 @@
+ENOPROTOOPT
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Protocol not available
+Value:		42
+#Wrap
+
+Protocol is not available (?).

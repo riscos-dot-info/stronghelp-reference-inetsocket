@@ -1,0 +1,8 @@
+EADDRINUSE
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Address already in use
+Value:		48
+#Wrap
+
+The port being bound cannot be obtained.

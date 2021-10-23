@@ -1,0 +1,8 @@
+Socket_Connect  (&41204)  connect()
+#Parent !Root
+=>	R0 =	Socket descriptor
+	R1 =	Pointer to <address=>sockaddr> of remote host
+	R2 =	Size of supplied address block (usually 16)
+<=	R0 corrupted
+
+#include desc_connect

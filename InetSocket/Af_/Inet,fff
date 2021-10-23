@@ -1,0 +1,5 @@
+AF_INET (2)
+#Parent AF_
+#Wrap off
+Meaning:	<Address Family=>AF_> : Internet
+Value:		2

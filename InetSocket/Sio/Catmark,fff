@@ -1,0 +1,8 @@
+SIOCATMARK (&80047307)
+#Parent SIO
+#Wrap off
+Meaning:	Checks if we are at the 'out-of-band' marker in the stream
+Value:		&80047307
+#Wrap
+
+Checks if we have reached 'out-of-band' data inline with the stream. The argument will be filled in with a boolean indicating if the next data is OOB.

@@ -1,0 +1,127 @@
+Common error numbers
+#Parent !Root
+Error codes are returned in the same manner as other SWIs, but the error code returned in the block is particular to the Internet socket SWIs. The main ones you will encounter are :
+Name		Value	Meaning
+#Line
+<EWOULDBLOCK>	35	Operation would block
+<EINPROGRESS>	36	Operation now in progress
+<EALREADY>	37	Operation already in progress
+<ECONNRESET>	54	Connection reset by peer
+<EISCONN>	56	Socket is already connected
+<ENOTCONN>	57	Socket is not connected
+<ETIMEDOUT>	60	Connection timed out
+<ECONNREFUSED>	61	Connection refused
+
+A <full list=>.all> of error number is available.
+#subpage all
+All error numbers
+Name		Value	Meaning
+#Line
+<EPERM>		1	Not owner
+<ENOENT>	2	No such file or directory
+<ESRCH>		3	No such process
+<EINTR>		4	Interrupted system call
+<EIO>		5	I/O error
+<ENXIO>		6	No such device or address (Invalid unit number)
+<E2BIG>		7	Arg list too long
+<ENOEXEC>	8	Exec format error
+<EBADF>		9	Bad file number
+<ECHILD>	10	No children
+<EAGAIN>	11	No more processes (Acorn's library)
+<EDEADLK>	11	Resource deadlock avoided (UnixLib)
+<ENOMEM>	12	Not enough memory
+<EACCES>	13	Permission denied
+<EFAULT>	14	Bad address
+<ENOTBLK>	15	Block device required
+<EBUSY>		16	Mount device busy
+<EEXIST>	17	File exists
+<EXDEV>		18	Cross-device link
+<ENODEV>	19	No such device
+<ENOTDIR>	20	Not a directory
+<EISDIR>	21	Is a directory
+<EINVAL>	22	Invalid argument passed
+<ENFILE>	23	File table overflow
+<EMFILE>	24	Too many open files
+<ENOTTY>	25	Not a typewriter (Inappropriate ioctl for device)
+<ETXTBSY>	26	Text file busy
+<EFBIG>		27	File too large
+<ENOSPC>	28	No space left on device
+<ESPIPE>	29	Illegal seek
+<EROFS>		30	Read-only file system
+<EMLINK>	31	Too many links
+<EPIPE>		32	Broken pipe
+<EDOM>		33	Argument too large
+<ERANGE>	34	Result too large
+<EWOULDBLOCK>	35	Operation would block
+<EINPROGRESS>	36	Operation now in progress
+<EALREADY>	37	Operation already in progress
+<ENOTSOCK>	38	Socket operation on non-socket
+<EDESTADDRREQ>	39	Destination address required
+<EMSGSIZE>	40	Message too long
+<EPROTOTYPE>	41	Protocol wrong type for socket
+<ENOPROTOOPT>	42	Protocol not available
+<EPROTONOSUPPORT>	43	Protocol not supported
+<ESOCKNOSUPPORT>	44	Socket type not supported
+<EOPNOTSUPP>	45	Operation not supported on socket
+<EPFNOSUPPORT>	46	Protocol family not supported
+<EAFNOSUPPORT>	47	Address family not supported by protocol family
+<EADDRINUSE>	48	Address already in use
+<EADDRNOTAVAIL>	49	Can't assign requested address
+<ENETDOWN>	50	Network is down
+<ENETUNREACH>	51	Network is unreachable
+<ENETRESET>	52	Network dropped connection on reset
+<ECONNABORTED>	53	Software caused connection abort
+<ECONNRESET>	54	Connection reset by peer
+<ENOBUFS>	55	No buffer space available
+<EISCONN>	56	Socket is already connected
+<ENOTCONN>	57	Socket is not connected
+<ESHUTDOWN>	58	Can't send after socket shutdown
+<ETOOMANYREFS>	59	Too many references: can't splice
+<ETIMEDOUT>	60	Connection timed out
+<ECONNREFUSED>	61	Connection refused
+<ELOOP>		62	Too many levels of symbolic links
+<ENAMETOOLONG>	63	File name too long
+<EHOSTDOWN>	64	Host is down
+<EHOSTUNREACH>	65	No route to host
+<ENOTEMPTY>	66	Directory not empty
+<EPROCLIM>	67	Too many processes
+<EUSERS>	68	Too many users
+<EDQUOT>	69	Disc quota exceeded
+<ESTALE>	70	Stale NFS file handle
+<EREMOTE>	71	Too many levels of remote in path
+
+#fH6:Acorn :
+#Indent 2
+<EDEADLK>	78	Deadlock condition.
+<ENOLCK>	79	No record locks available.
+<ENOMSG>	80	No suitable message on queue
+<EIDRM>		81	Identifier removed from system
+<ELIBVER>	82	Wrong version of shared library
+<ELIBACC>	83	Permission denied (shared library) 
+<ELIBLIM>	84	Shared libraries nested too deeply
+<ELIBNOENT>	85	Shared library file not found
+<ELIBNOEXEC>	86	Shared library exec format error
+#Indent
+
+#fH6:UnixLib :
+#Indent 2
+EBADRPC		72	RPC structure is bad
+ERPCMISMATCH	73	RPC version is wrong
+EPROGUNAVAIL	74	RPC program not available
+EPROGMISMATCH	75	RPC program version wrong
+EPROCUNAVAIL	76	RPC bad procedure for program
+<ENOLCK>	77	No locks available
+ENOSYS		78	Function not implemented
+EFTYPE		79	Inappropriate file type or format
+EAUTH		80	Authentication error
+ENEEDAUTH	81	Need authenticator
+<EAGAIN>	82	Resource temporarily unavailable
+EBACKGROUND	100	Inappropriate operation for background process
+EDIED		101	Translator died
+EGREGIOUS	103	A pretty bad error (so says unixlib!)
+EGRATUITOUS	105	Gratuitous error (!)
+#Indent
+
+{*}Note:{*} I'm guessing what some of these are.
+
+Error number /should/ be returned offset by the base &20E00.

@@ -1,0 +1,8 @@
+EISCONN
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Socket is already connected
+Value:		56
+#Wrap
+
+You can't connect an already connected socket.

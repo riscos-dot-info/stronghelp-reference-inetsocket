@@ -1,0 +1,8 @@
+ELIBLIM
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Shared libraries nested too deeply
+Value:		84
+#Wrap
+
+Too many libraries refer to other libraries implicitly - either explicitly specify libraries higher up or cry.

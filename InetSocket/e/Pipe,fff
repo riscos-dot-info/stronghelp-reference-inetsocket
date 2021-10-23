@@ -1,0 +1,8 @@
+EPIPE
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Broken pipe
+Value:		32
+#Wrap
+
+The other end of the pipe has closed and there is no more data to read, or you cannot write to it.

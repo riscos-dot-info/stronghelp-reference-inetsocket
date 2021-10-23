@@ -1,0 +1,7 @@
+Socket_Shutdown  (&4120B)  shutdown()
+#Parent !Root
+=>	R0 =	Socket descriptor
+	R1 =	<Direction of shutdown=>desc_shutdown_dir>
+<=	R0 corrupted
+
+#include desc_shutdown

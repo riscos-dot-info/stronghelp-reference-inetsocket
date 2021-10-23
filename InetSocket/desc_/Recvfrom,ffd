@@ -1,0 +1,5 @@
+# This file is included from elsewhere
+This call has identical functionality to <Socket_Recv> and <recv>() except that the address of the host that sent the data will be returned in the block supplied. If no data is available, the call will block until data is available, unless the socket has been marked non-blocking, in which case <EWOULDBLOCK> will be returned.
+
+#Tab
+<C definition=>Recvfrom>	<SWI definition=>Socket_Recvfrom>

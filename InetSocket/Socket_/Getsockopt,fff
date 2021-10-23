@@ -1,0 +1,10 @@
+Socket_Getsockopt  (&4120D)  getsockopt()
+#Parent !Root
+=>	R0 =	Socket descriptor
+	R1 =	Option level (<SOL_SOCKET>, or a <protocol number=>protocols>)
+	R2 =	Option (see <SOL_SOCKET>, <IP options=>IP_> or <TCP options=>TCP_>)
+	R3 =	Pointer to buffer for option value
+	R4 =	Size of option value buffer
+<=	R0 corrupted
+
+#include desc_getsockopt

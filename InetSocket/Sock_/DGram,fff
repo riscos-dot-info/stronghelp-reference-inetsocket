@@ -1,0 +1,8 @@
+SOCK_DGRAM (2)
+#Parent Sock_
+#Wrap off
+Meaning:	<Socket type=>sock_> is datagram (message only)
+Value:		2
+#Wrap
+
+Connectionless, messages based protocols providing unreliable, non-sequence communication. The only protocol of this type currently supported is the user datagram protocol (UDP).

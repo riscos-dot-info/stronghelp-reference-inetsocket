@@ -1,0 +1,7 @@
+# This file is included from elsewhere
+This call sends data on a socket. In the case of datagram and raw sockets, a single datagram containing the data will be sent, and <EMSGSIZE> will be returned if the data is too large to be sent in this way. For stream sockets, the call will block until all the data has been sent, unless the socket has been marked non-blocking, in which case as much data as possible will be sent.
+
+Because this call does not specify the address to send to, the socket used for this call must be a connected socket.
+
+#Tab
+<C definition=>Send>	<SWI definition=>Socket_Send>

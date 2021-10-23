@@ -1,0 +1,24 @@
+SOL_SOCKET (&FFFF)
+#Parent !Root
+Meaning:	Use options for the socket itself
+Value:		&FFFF
+
+These options affect a generic socket itself (as opposed to the protocol). The options available are :
+
+#Tab
+Value	Meaning
+#Line
+&4	<SO_REUSEADDR>
+&8	<SO_KEEPALIVE>
+&10	<SO_DONTROUTE>
+&20	<SO_BROADCAST>
+&80	<SO_LINGER>
+&100	<SO_OOBINLINE>
+&1001	<SO_SNDBUF>
+&1002	<SO_RCVBUF>
+&1003	<SO_SNDLOWAT>
+&1004	<SO_RCVLOWAT>
+&1005	<SO_SNDTIMEO>
+&1006	<SO_RCVTIMEO>
+&1007	<SO_ERROR> (read only)
+&1008	<SO_TYPE> (read only)

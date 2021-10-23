@@ -1,0 +1,23 @@
+Message descriptor
+#Parent recvmsg
+Offset	Contents
+#Line
+0	Pointer to <address=>sockaddr> to be filled in
+4	Size of address block
+8	Pointer to array of <buffer descriptors=>iovec>
+12	Number of buffer descriptors in use
+16	Pointer to list of access rights (unused by FreeNet)
+20	Size of access rights list
+24	<Flags for received data=>MSG_>
+
+Or, in C :
+
+#fCode; Wrap off
+struct msghdr \{
+  struct <sockaddr> * msg_name;        /* optional address */
+  int               msg_namelen;     /* size of address */
+  struct <iovec> *    msg_iov;         /* scatter/gather array */
+  int               msg_iovlen;      /* # elements in msg_iov */
+  char *            msg_accrights;   /* access rights sent/received */
+  int               msg_accrightslen;
+\};

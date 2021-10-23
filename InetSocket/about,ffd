@@ -1,0 +1,82 @@
+Internet manual
+#Align Centre
+{fh3}Internet Sockets manual{f}
+#Line
+#Align Left
+This manual is part of a collection comprising the main public domain programming reference. The other manuals in the series are :
+#Indent 2
+#Postfix :!Root
+<OS>		The base operating system stuff
+<Wimp>		The desktop part of the operating system
+<InetSWIs>	Internet based SWIs
+<InetSocket>	Internet socket calls
+<MiscSWIs>	Miscellaneous SWIs
+<VDU>		VDU commands
+<Toolbox>	Toolbox (by Neil Bingham)
+#Indent
+
+For comments, suggestions and submissions for these, please mail Justin Fletcher <\<gerph@innocent.com\>=>#URL mailto:gerph@innocent.com> who is currently moderating the collection. The primary location for these manuals will be <http://freenet.barnet.ac.uk/manuals/=>#URL http://freenet.barnet.ac.uk/manuals/>.
+
+Hopefully, this manual should cover the everything that the other manuals have, as well as extra ground which is useful to authors.
+
+#fH4:Dedication
+This manual came about mostly because of the hard work put into developing the Internet stack and it's related software. There is no real need to mention all their names here - they and we know who they are. It is to them, and the authors who write freeware internet software, that I dedicate this manual.
+
+Click <here=>.hist106> for history information.
+#
+#Subpage hist102
+History for Inet v1.02
+#Align Right
+{/}02 Sep 1997{/}
+#Align Left
+è	Added the last of the SWI calls
+è	Updated to include errors from UnixLib
+
+<Next history=>.hist103>
+#
+#Subpage hist103
+History for Inet v1.03
+#Align Right
+{/}22 Sep 1997{/}
+#Align Left
+è	First major release
+è	Includes details for all the standard SWIs, Address & Protocol families, major internet services, and error numbers; as well as some data structures required.
+
+#Tab
+<Previous history=>.hist102>	<Next history=>.hist104>
+#
+#Subpage hist104
+History for InetSocket v1.04
+#Align Right
+{/}15 Nov 1997{/}
+#Align Left
+è	Added details of the internet event.
+è	Spent ages trying to get the C version 'right'. I hope like hell that I've got it all right and that I've not made too many glaring mistakes. Since I've had to reorganise the SWI's side too, there are possibly errors in both now. Could you tell me if there are problems with any part of the system, for example things which make sense on the SWI side but not the C side. As a side-line you could change the main menu to deal with the C side by removing the #Parent Socket_ from the !Root file. Not all the links will work, but enough to be usable should. Oh, and the C side should be hotkeyed searchable now as well.
+è	Renamed to InetSocket at Neil Bingham's suggestions; this is a much better name for it!
+
+#tab
+<Previous history=>.hist103>	<Next history=>.hist105>
+#
+#Subpage hist105
+History for InetSocket v1.05
+#Align Right
+{/}21 Jan 1998-22 Mar 1998{/}
+#Align Left
+è	Fixed details about Select and events when urgent or exceptional conditions occur.
+è	Added buttons for entering function names (SH 2.53 only) - this is still experimental
+è	Updated about page to reflect status as part of collection
+è	Added 'notfound_{/}manual{/}' pages, for StrongHelp 2.60.
+
+#tab
+<Previous history=>.hist104>	<Next history=>.hist106>
+#
+#Subpage hist106
+History for InetSocket v1.06
+#Align Right
+{/}20 Jul 1998-{/}
+#Align Left
+è	Added 'notfound_{/}manual{/}' pages, for StrongHelp 2.60.
+è	Removed buttons - you can shift click things now.
+è	HTML conversion identified lots of 'parent' problems.
+
+<Previous history=>.hist105>

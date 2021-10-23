@@ -1,0 +1,8 @@
+IP_HDRINCL (2)
+#Parent IP_
+#Wrap off
+Meaning:	Changes whether header is already included
+Value:		2
+#Wrap
+
+This toggles whether data sent on a socket already has an IP header included or not. This should only ever be set on raw sockets.

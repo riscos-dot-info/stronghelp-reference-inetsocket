@@ -1,0 +1,9 @@
+EDEADLK
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Deadlock condition avoided
+Value:		11 (UnixLib)
+		78 (Acorn's library)
+#Wrap
+
+A deadlock has occured so your operation has been killed to release it. Sorry.

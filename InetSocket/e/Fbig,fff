@@ -1,0 +1,8 @@
+EFBIG
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : File too large
+Value:		27
+#Wrap
+
+The file is too large for this device/operating system.

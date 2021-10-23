@@ -1,0 +1,12 @@
+close()  Socket_Close  (&41210)
+#Parent !Root
+Syntax:	NetLib -	int close (int s);
+	Sockets -	int socketclose (int s);
+	UnixLib -	int close (int s);
+Header:	NetLib -	(unprototyped)
+	Sockets -	socklib.h
+	UnixLib -	unistd.h
+
+Returns:	0 for success, EOF if failed
+
+#include desc_Close

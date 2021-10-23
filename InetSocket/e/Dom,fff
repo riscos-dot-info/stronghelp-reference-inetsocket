@@ -1,0 +1,8 @@
+EDOM
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Argument too large
+Value:		33
+#Wrap
+
+That number is not in the right range for this operation.

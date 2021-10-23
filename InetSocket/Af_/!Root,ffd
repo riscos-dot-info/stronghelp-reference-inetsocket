@@ -1,0 +1,27 @@
+Address families
+#Parent !Root
+Name		Value	Meaning
+#Line
+AF_UNSPEC	0	Unspecified protocol
+AF_UNIX		1	local to UNIX host (pipes, portals) [has any one used this ?]
+# I know what they are on Unix, and how to spot one from quite a long way away
+# (It's the only thing in a directory which can have a link count of zero)
+# How the F can one do them on RISC OS?
+AF_RISCOS	1	equivilent to AF_UNIX
+<AF_INET>	2	inter-network (UDP, TCP, etc)
+AF_IMPLINK	3	arpanet imp protocols
+AF_PUP		4	pup protocols: e.g. BSP
+AF_CHAOS	5	MIT CHAOS protocols
+AF_NS		6	XEROX NS protocols
+AF_NBS		7	NBS protocols
+AF_ECMA		8	European Computer Manufacturers protocols
+AF_DATAKIT	9	Datakit protocols
+AF_CCITT	10	CCITT protocols, X.25 etc
+AF_SNA		11	IBM SNA
+AF_DECnet	12	DECnet
+AF_DLI		13	Direct Data Link interface
+AF_LAT		14	LAT
+AF_HYLINK	15	NSC Hyperchannel
+AF_APPLETALK	16	AppleTalk protocols
+
+AF_MAX		17	number of protocols avialable

@@ -1,0 +1,8 @@
+ENFILE
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : File table overflow
+Value:		23
+#Wrap
+
+Too many files on this device.

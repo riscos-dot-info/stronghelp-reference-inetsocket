@@ -1,0 +1,7 @@
+Socket_Listen  (&41202)  listen()
+#Parent !Root
+=>	R0 =	Socket descriptor
+	R1 =	Maximum backlog
+<=	R0 corrupted
+
+#include desc_listen

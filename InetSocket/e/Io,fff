@@ -1,0 +1,8 @@
+EIO
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : I/O error
+Value:		5
+#Wrap
+
+I/O failed.

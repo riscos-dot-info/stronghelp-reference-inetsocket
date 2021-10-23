@@ -1,0 +1,24 @@
+Protocol families
+#Parent !Root
+Name		Value	Meaning
+#Line
+PF_UNSPEC	0	Unspecified protocol
+PF_UNIX		1	local to UNIX host (pipes, portals) [has any one used this ?]
+PF_RISCOS	1	equivilent to PF_UNIX
+<PF_INET>	2	inter-network (UDP, TCP, etc)
+PF_IMPLINK	3	arpanet imp protocols
+PF_PUP		4	pup protocols: e.g. BSP
+PF_CHAOS	5	MIT CHAOS protocols
+PF_NS		6	XEROX NS protocols
+PF_NBS		7	NBS protocols
+PF_ECMA		8	European Computer Manufacturers protocols
+PF_DATAKIT	9	Datakit protocols
+PF_CCITT	10	CCITT protocols, X.25 etc
+PF_SNA		11	IBM SNA
+PF_DECnet	12	DECnet
+PF_DLI		13	Direct Data Link interface
+PF_LAT		14	LAT
+PF_HYLINK	15	NSC Hyperchannel
+PF_APPLETALK	16	AppleTalk protocols
+
+PF_MAX		17	number of protocols avialable

@@ -1,0 +1,8 @@
+SO_RCVBUF (&1002)
+#Parent SOL_SOCKET
+#Wrap off
+Meaning:	Changes the size of the receive buffer
+Value:		&1002
+#Wrap
+
+Set the size of the receive buffer to the value given by the argument, which is a single word.

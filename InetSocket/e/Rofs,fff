@@ -1,0 +1,8 @@
+EROFS
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Read-only file system
+Value:		30
+#Wrap
+
+The filesystem specified is read-only. You cannot write to it.

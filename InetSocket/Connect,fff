@@ -1,0 +1,10 @@
+connect()  Socket_Connect  (&41204)
+#Parent !Root
+Syntax:	int connect(int s, struct <sockaddr> *name, int namelen);
+Header:	NetLib -	sys/socket.h
+	Sockets -	socklib.h
+	UnixLib -	sys/socket.h
+
+Returns:	0 for success, EOF if failed
+
+#include desc_Connect

@@ -1,0 +1,13 @@
+# This page is not an error - it is #included from elsewhere
+#Tab
+Value		Name		Meaning
+#Line
+&80047300	SIOCSHIWAT	Set high water mark
+&40047301	SIOCGHIWAT	Read high water mark
+&80047302	SIOCSLOWAT	Set low water mark
+&40047303	SIOCGLOWAT	Read low water mark
+&40047307	<SIOCATMARK>	Check if we are at OOB marker
+&80047308	SIOCSPGRP	Set process group
+&80047309	SIOCGPGRP	Read process group
+
+{*}Note:{*} I've only listed Socket operations.

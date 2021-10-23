@@ -1,0 +1,8 @@
+EACCES
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Permission denied
+Value:		13
+#Wrap
+
+You do not have permission to perform the requested action.

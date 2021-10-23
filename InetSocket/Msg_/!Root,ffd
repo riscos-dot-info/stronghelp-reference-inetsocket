@@ -1,0 +1,13 @@
+Message control flags
+#Parent !Root
+Message control flags are used in <Socket_Recv>.
+
+#Tab
+Flag	Name		Meaning
+#Line
+&01	<MSG_OOB>	Send/Read 'out-of-band' data
+&02	<MSG_PEEK>	Examine data
+&08	<MSG_EOR>	This data completes the record
+&10	<MSG_TRUNC>	Message was truncated
+&40	<MSG_WAITALL>	Force blocking
+&80	<MSG_DONTWAIT>	Force non-blocking

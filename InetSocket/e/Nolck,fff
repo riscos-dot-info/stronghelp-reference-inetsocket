@@ -1,0 +1,9 @@
+ENOLCK
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : No record locks available
+Value:		77 (UnixLib)
+		79 (Acorn's library)
+#Wrap
+
+You can't lock things here. We don't support it. (?)

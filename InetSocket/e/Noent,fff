@@ -1,0 +1,8 @@
+ENOENT
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : No such file or directory
+Value:		2
+#Wrap
+
+The file or directory does not exist.

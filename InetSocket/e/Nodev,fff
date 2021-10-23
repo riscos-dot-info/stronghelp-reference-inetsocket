@@ -1,0 +1,8 @@
+ENODEV
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : No such device
+Value:		19
+#Wrap
+
+The device requested is not present.

@@ -1,0 +1,8 @@
+ENETDOWN
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Network is down
+Value:		50
+#Wrap
+
+A router has it's gateway marked as down and cannot reach the address. This will be returned by drivers if the link to the network is not present. Some drivers may reconnect so that the operation may be retried.

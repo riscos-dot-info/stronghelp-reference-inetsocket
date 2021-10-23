@@ -1,0 +1,5 @@
+# This file is included from elsewhere
+This call reads data into a gather array. The buffer descriptors are the same as those for <Socket_Recvmsg> or <recv>(), and as with <Socket_Read> or <read>() the flags are all treated as being zero.
+
+#Tab
+<C definition=>ReadV>	<SWI definition=>Socket_ReadV>

@@ -1,0 +1,9 @@
+Socket_Ioctl operations
+I/O control operations come in two flavours :
+
+#fH4:File operations
+#include FIO_ops
+
+
+#fH4:Socket operations
+#include SIO_ops

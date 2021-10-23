@@ -1,0 +1,8 @@
+EINTR
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Interrupted system call
+Value:		4
+#Wrap
+
+The call was interrupted and was unable to complete (?).

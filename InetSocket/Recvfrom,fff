@@ -1,0 +1,10 @@
+recvfrom()  Socket_Recvfrom  (&41206)
+#Parent !Root
+Syntax:	int recvfrom(int s, char *msg, int len, int <flags=>MSG_>, struct <sockaddr> *from, int *fromlen);
+Header:	NetLib -	sys/socket.h
+	Sockets -	socklib.h
+	UnixLib -	sys/socket.h
+
+Returns:	amount of data received, or EOF if error
+
+#include desc_Recvfrom

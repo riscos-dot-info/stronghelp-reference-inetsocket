@@ -1,0 +1,8 @@
+EAFNOTSUPPORT
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : <Address family=>AF_> not supported by <Protocol family=>PF_>
+Value:		47
+#Wrap
+
+Address family is not supported by this protocol family.

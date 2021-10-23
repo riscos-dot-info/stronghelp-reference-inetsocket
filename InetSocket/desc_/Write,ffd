@@ -1,0 +1,5 @@
+# This file is included from elsewhere
+This call sends data on a socket in the same style as <Socket_Send> or <send>() except that there is no flags argument, so all flags are treated as being zero.
+
+#Tab
+<C definition=>Write>	<SWI definition=>Socket_Write>

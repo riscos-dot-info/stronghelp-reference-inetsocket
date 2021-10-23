@@ -1,0 +1,8 @@
+ENOTEMPTY
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Directory not empty
+Value:		66
+#Wrap
+
+The requested operation may only be performed on empty directories.

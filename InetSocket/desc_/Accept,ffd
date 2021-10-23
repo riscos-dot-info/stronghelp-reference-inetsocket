@@ -1,0 +1,9 @@
+# This file is included from elsewhere
+This call is used to accept connections from server sockets that have been told to listen for new connections (using <Socket_Listen> or <listen>() ). A new socket will be created for each incoming connection, and this call is then used to obtain the descriptor for the next pending connection.
+
+The address of the host which initiated the returned connection will also be returned, in the supplied address block.
+
+If there are no connections waiting to be accepted, this call will block until a connection is available to be returned, unless the socket has been marked as non-blocking using <Socket_Ioctl> or <ioctl>(), in which case the error <EWOULDBLOCK> will be returned.
+
+#Tab
+<C definition=>Accept>	<SWI definition=>Socket_Accept>

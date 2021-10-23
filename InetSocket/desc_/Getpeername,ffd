@@ -1,0 +1,5 @@
+# This file is included from elsewhere
+This call returns the address that the socket is connected to (if any) in the supplied address block.
+
+#Tab
+<C definition=>Getpeername>	<SWI definition=>Socket_Getpeername>

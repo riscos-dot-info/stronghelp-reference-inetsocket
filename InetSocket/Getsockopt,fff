@@ -1,0 +1,13 @@
+getsockopt()  Socket_Getsockopt  (&4120D)
+#Parent !Root
+Syntax:	int getsockopt (int s, int level, int optname, char *optval, int *optlen);
+Header:	NetLib -	sys/socket.h
+	Sockets -	socklib.h
+	UnixLib -	sys/socket.h
+
+Returns:	0 for success, EOF if failed
+
+level can be <SOL_SOCKET>, or a <protocol number=>protocols>
+optval can be <SOL_SOCKET>, <IP options=>IP_> or <TCP options=>TCP_>
+
+#include desc_Getsockopt

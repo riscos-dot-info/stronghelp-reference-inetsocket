@@ -1,0 +1,5 @@
+# This file is included from elsewhere
+This call causes a socket of type <SOCK_STREAM> to begin listening for incoming connection attempts. The backlog parameter specifies the maximum length that the queue of pending connections may grow to before connection attempts will be refused.
+
+#Tab
+<C definition=>Listen>	<SWI definition=>Socket_Listen>

@@ -1,0 +1,8 @@
+Socket_Ioctl  (&41212)  ioctl()
+#Parent !Root
+=>	R0 =	Socket descriptor
+	R1 =	<Operation=>desc_ioctl_ops> (<File=>FIO>, <Socket=>SIO>)
+	R2 =	Pointer to argument
+<=	R0 corrupted
+
+#include desc_ioctl

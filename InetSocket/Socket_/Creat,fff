@@ -1,0 +1,8 @@
+Socket_Creat  (&41200)  socket()
+#Parent !Root
+=>	R0 =	<Protocol family=>PF_>
+	R1 =	<Socket type=>sock_>
+	R2 =	Protocol, or 0 for default for socket type
+<=	R0 =	Socket descriptor
+
+#include desc_socket

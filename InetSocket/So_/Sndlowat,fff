@@ -1,0 +1,8 @@
+SO_SNDLOWAT (&1003)
+#Parent SOL_SOCKET
+#Wrap off
+Meaning:	Changes the low water mark of the send buffer
+Value:		&1003
+#Wrap
+
+Set the low water mark of the send buffer. The stack will block a send until there is this much space in the send buffer before it starts to send the data.

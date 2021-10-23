@@ -1,0 +1,8 @@
+ENOTSOCK
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Socket operation on non-socket
+Value:		38
+#Wrap
+
+You can't apply sock operations to normal file descriptors.

@@ -1,0 +1,5 @@
+# This file is included from elsewhere
+This call sends data from a scatter array. The buffer descriptors are the same as those described for <Socket_Recvmsg> or <recvmsg>(), and as with <Socket_Write> and <write>() the flags are all treated as being zero.
+
+#Tab
+<C definition=>WriteV>	<SWI definition=>Socket_WriteV>

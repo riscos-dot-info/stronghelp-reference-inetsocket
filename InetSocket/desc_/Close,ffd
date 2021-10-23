@@ -1,0 +1,5 @@
+# This file is included from elsewhere
+Close a socket, freeing the descriptor for reuse. For stream sockets, this is roughly equivalent to calling <Socket_Shutdown> or <shutdown>() with a type code of 2, whilst for datagram sockets this call immediately deletes the socket.
+
+#Tab
+<C definition=>Close>	<SWI definition=>Socket_Close>

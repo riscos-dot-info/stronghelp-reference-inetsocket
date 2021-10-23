@@ -1,0 +1,17 @@
+Internet activity event (19)
+#Parent !Root
+=>	R0 =	19 (event number)
+	R1 =	<Event reason=>.code>
+	R2 =	Socket descriptor
+
+This event is raised only for sockets who have enabled it using <Socket_Ioctl> or <ioctl>() <FIOASYNC>.
+#Subpage code
+Internet event reasons
+Code	Meaning
+#Line
+1	Socket has input waiting to be read
+2	An 'urgent' event has occured (eg arrival of OOB data)
+3	Sockets connection has been broken
+4	RevARP reply ?
+
+Urgent events equate to those which would be flagged as 'exception' from <select>() or <Socket_Select>. For TCP, this implies the arrival of OOB data.

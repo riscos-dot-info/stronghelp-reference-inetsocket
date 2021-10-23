@@ -1,0 +1,8 @@
+IP_TOS (3)
+#Parent IP_
+#Wrap off
+Meaning:	Changes the type of service field
+Value:		3
+#Wrap
+
+Set the type of service field in packets sent using this socket to the specified value.

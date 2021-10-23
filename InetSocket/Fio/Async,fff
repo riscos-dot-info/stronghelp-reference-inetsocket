@@ -1,0 +1,10 @@
+FIOASYNC (&8004667D)
+#Parent FIO
+#Wrap off
+Meaning:	Selects a socket as being asynchronous
+Value:		&8004667D
+#Wrap
+
+Enable or disable use of RiscOS events to indicate changes on the socket. The argument is a single word acting as a flag.
+
+On activity on the specified socket, the <Internet event=>event_19> will be raised to notify you.

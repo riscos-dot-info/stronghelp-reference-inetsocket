@@ -1,0 +1,9 @@
+EAGAIN
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : No more processes
+Value:		82 (UnixLib)
+		11 (Acorn's library)
+#Wrap
+
+There are no more processes available in system (Resource temporarily unavialable)

@@ -1,0 +1,8 @@
+SO_SNDBUF (&1001)
+#Parent SOL_SOCKET
+#Wrap off
+Meaning:	Changes the size of the send buffer
+Value:		&1001
+#Wrap
+
+Set the size of the send buffer to the value given by the argument, which is a single word.

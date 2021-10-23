@@ -1,0 +1,3 @@
+Socket_Stat  (&41215)  stat()
+#Parent !root
+#include desc_stat

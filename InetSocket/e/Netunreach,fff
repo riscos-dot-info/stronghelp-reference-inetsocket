@@ -1,0 +1,8 @@
+ENETUNREACH
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Network is unreachable
+Value:		51
+#Wrap
+
+The route to the host is too far for the connection type to reach. Most likely cause is a broken route.

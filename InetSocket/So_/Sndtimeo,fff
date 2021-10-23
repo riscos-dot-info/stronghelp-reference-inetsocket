@@ -1,0 +1,8 @@
+SO_SNDTIMEO (&1005)
+#Parent SOL_SOCKET
+#Wrap off
+Meaning:	Changes the timeout for blocking sends
+Value:		&1005
+#Wrap
+
+Set the send timeout. This is the maximum length of time that a send call will block for before returning. The argument is a pointer to a <timeout block=>timeval>.

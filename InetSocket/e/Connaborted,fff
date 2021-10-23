@@ -1,0 +1,8 @@
+ECONNABORTED
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Software caused connection abort
+Value:		53
+#Wrap
+
+Our software caused the connection to be closed.

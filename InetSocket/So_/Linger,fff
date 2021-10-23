@@ -1,0 +1,8 @@
+SO_LINGER (&80)
+#Parent SOL_SOCKET
+#Wrap off
+Meaning:	Changes whether the socket lingers on close
+Value:		&80
+#Wrap
+
+Control whether the socket lingers on close. The argument points to two words, the first of which is a boolean that indicates wether the socket waits for data to drain when it is closed, and the second is the length of time to wait in seconds.

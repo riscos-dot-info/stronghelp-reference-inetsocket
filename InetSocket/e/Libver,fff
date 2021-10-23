@@ -1,0 +1,8 @@
+ELIBVER
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Wrong version of shared library
+Value:		82
+#Wrap
+
+The version of the shared library is out of date. Recompile the code, or get a new library.

@@ -1,0 +1,8 @@
+Timeout block (timeval)
+#Parent !Root
+Offset	Contents
+#Line
+0	Number of seconds to wait
+4	Number of microseconds to wait
+
+A timeout with both fields set to zero will mean an immediate timeout regardless of the state of the operation.

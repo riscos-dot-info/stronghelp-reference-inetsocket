@@ -1,0 +1,8 @@
+ENOEXEC
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Exec format error
+Value:		8
+#Wrap
+
+The code you tried running is not for this architecture or operating system.

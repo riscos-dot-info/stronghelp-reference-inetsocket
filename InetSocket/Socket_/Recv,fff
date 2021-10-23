@@ -1,0 +1,9 @@
+Socket_Recv (&41205)  recv()
+#Parent !Root
+=>	R0 =	Socket descriptor
+ 	R1 =	Pointer to buffer for received data
+ 	R2 =	Size of buffer
+ 	R3 =	<Flags=>MSG_>
+<=	R0 =	Amount of data received
+
+#include desc_recv

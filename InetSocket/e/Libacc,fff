@@ -1,0 +1,8 @@
+ELIBACC
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Permission denied (shared library)
+Value:		83
+#Wrap
+
+The shared library cannot access the files it requires. Sorry.

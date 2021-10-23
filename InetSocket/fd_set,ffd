@@ -1,0 +1,3 @@
+File descriptor sets
+#Parent Socket_Select
+The descriptor set is a bitmask, where bit zero refers to socket zero, bit one to socket one and so on. Only those sockets whose bit is set in a mask will be considered when performing the checks. For example, as most stacks support 128 sockets, the bitmasks are arrays of four words - descriptors 0 to 31 are in the first word and so on.

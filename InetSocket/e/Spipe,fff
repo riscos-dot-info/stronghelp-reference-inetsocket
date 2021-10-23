@@ -1,0 +1,8 @@
+ESPIPE
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Illegal seek
+Value:		29
+#Wrap
+
+You can't perform seeks on pipes.

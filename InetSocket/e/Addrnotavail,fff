@@ -1,0 +1,8 @@
+EADDRNOTAVAIL
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Address not available
+Value:		49
+#Wrap
+
+The port being bound cannot be obtained (TIME_WAIT condition, etc).

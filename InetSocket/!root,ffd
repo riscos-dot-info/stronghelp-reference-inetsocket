@@ -1,0 +1,43 @@
+Internet calls
+#Parent StrongHelp:!Menu
+#Prefix Socket_
+#Table Columns 4
+<Accept>
+<Bind>
+<Close>
+<Connect>
+<Creat>
+<Getpeername>
+<Getsockname>
+<Getsockopt>
+<Gettsize>
+<Ioctl>
+<Listen>
+<Recv>
+<Recvfrom>
+<Recvmsg>
+<Read>
+<Readv>
+<Send>
+<Sendmsg>
+<Sendto>
+<Sendtosm>
+<Select>
+<Setsockopt>
+<Shutdown>
+<Stat>
+<Write>
+<Writev>
+
+<Internet event=>event_19>
+#EndTable
+
+#Table Columns 2
+<Address families=>AF_>
+<Protocol families=>PF_>
+<Internet services=>services>
+<Error numbers=>E>
+<RFCs by number=>RFCs:!Root>
+#EndTable
+#Line;Align Centre
+{/}<Internet sockets manual=>about>, v1.06{/}

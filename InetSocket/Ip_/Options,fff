@@ -1,0 +1,8 @@
+IP_OPTIONS (1)
+#Parent IP_
+#Wrap off
+Meaning:	Changes options for packets
+Value:		1
+#Wrap
+
+Set some IP options which will be added to each packet sent on a socket.

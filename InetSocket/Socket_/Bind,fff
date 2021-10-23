@@ -1,0 +1,8 @@
+Socket_Bind  (&41201)  bind()
+#Parent !Root
+=>	R0 =	Socket descriptor
+	R1 =	Pointer to local <address=>sockaddr> to bind socket to
+	R2 =	Size of local address (usually 16)
+<=	R0 corrupted
+
+#include desc_bind

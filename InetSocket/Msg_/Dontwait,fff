@@ -1,0 +1,8 @@
+MSG_DONTWAIT (&80)
+#Parent MSG_
+#Wrap off
+Meaning:	This process should be non-blocking
+Value:		&80
+#Wrap
+
+This flag should be set to prevent blocking during <Socket_Recv>, even if the socket was marked as blocking with <Socket_Ioctl>.

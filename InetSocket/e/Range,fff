@@ -1,0 +1,8 @@
+ERANGE
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Result too large
+Value:		34
+#Wrap
+
+It's just too big; try again with a smaller number.

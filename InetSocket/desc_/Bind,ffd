@@ -1,0 +1,5 @@
+# This file is included from elsewhere
+This call binds a socket to a specified local address.
+
+#Tab
+<C definition=>Bind>	<SWI definition=>Socket_Bind>

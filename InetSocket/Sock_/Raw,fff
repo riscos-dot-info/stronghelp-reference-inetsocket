@@ -1,0 +1,8 @@
+SOCK_RAW (3)
+#Parent Sock_
+#Wrap off
+Meaning:	<Socket type=>sock_> is a raw packet
+Value:		3
+#Wrap
+
+Low level access to the underlying packet based transport mechanism to allow the implementation of alternative higher level protocols.

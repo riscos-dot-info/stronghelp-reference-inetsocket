@@ -1,0 +1,8 @@
+EHOSTUNREACH
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : No route to host
+Value:		65
+#Wrap
+
+There is no route to the requested host - we know where it is, but we can't get there.

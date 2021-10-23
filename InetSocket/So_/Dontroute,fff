@@ -1,0 +1,8 @@
+SO_DONTROUTE (&10)
+#Parent SOL_SOCKET
+#Wrap off
+Meaning:	Stop routing for this connection
+Value:		&10
+#Wrap
+
+Enable or disable routing on this connection.

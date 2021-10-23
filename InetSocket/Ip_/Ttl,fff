@@ -1,0 +1,8 @@
+IP_TTL (4)
+#Parent IP_
+#Wrap off
+Meaning:	Changes the time to live of packets
+Value:		4
+#Wrap
+
+Set the time to live field in packets sent using this socket to the specified value.

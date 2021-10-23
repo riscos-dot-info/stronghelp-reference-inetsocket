@@ -1,0 +1,8 @@
+TCP_MAXSEG (2)
+#Parent TCP_
+#Wrap off
+Meaning:	Changes the maximum segment size
+Value:		2
+#Wrap
+
+Set the maximum segment size to use for data sent on this connection.

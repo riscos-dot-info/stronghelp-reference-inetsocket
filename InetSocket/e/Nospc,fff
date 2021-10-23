@@ -1,0 +1,8 @@
+ENOSPC
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : No space left on device
+Value:		28
+#Wrap
+
+The device is full. Go delete some stuff and try again.

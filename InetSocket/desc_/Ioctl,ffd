@@ -1,0 +1,5 @@
+# This file is included from elsewhere
+This call is used to perform miscellaneous control operations on individual sockets and on the TCP/IP stack as a whole.
+
+#Tab
+<C definition=>Ioctl>	<SWI definition=>Socket_Ioctl>

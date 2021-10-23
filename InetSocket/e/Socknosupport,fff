@@ -1,0 +1,8 @@
+ESOCKNOSUPPORT
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Socket type not supported
+Value:		44
+#Wrap
+
+Socket type is not supported by this operating system.

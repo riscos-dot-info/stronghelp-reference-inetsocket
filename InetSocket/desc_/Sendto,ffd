@@ -1,0 +1,5 @@
+# This file is included from elsewhere
+This call performs the same job as <Socket_Send> or <send>(), except that the remote address is specified so that it can be used on unconnected sockets. This call is only useful for sockets that do not require a connection such as those using the UDP protocol. For sockets that require a connection such as those using the TCP protocol, you need to call <Socket_Connect> or <connect>() before you can use this routine, and the address given to this call is then ignored anyway.
+
+#Tab
+<C definition=>Sendto>	<SWI definition=>Socket_Sendto>

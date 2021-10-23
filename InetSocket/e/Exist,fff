@@ -1,0 +1,8 @@
+EEXIST
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : File exists
+Value:		17
+#Wrap
+
+The file specified already exists.

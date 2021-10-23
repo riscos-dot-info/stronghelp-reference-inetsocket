@@ -1,0 +1,13 @@
+Socket_Setsockopt  (&4120C)  setsockopt()
+#Parent !Root
+Syntax:	int setsockopt(int s, int level, int optname, char *optval, int optlen);
+Header:	NetLib -	sys/socket.h
+	Sockets -	socklib.h
+	UnixLib -	sys/socket.h
+
+Returns:	0 for success, or EOF if failed
+
+level can be <SOL_SOCKET>, or a <protocol number=>protocols>
+optval can be <SOL_SOCKET>, <IP options=>IP_> or <TCP options=>TCP_>
+
+#include desc_setsockopt

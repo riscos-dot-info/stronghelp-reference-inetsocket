@@ -1,0 +1,10 @@
+select()  Socket_Select  (&41211)
+#Parent !Root
+Syntax:	int select(int nfds, <fd_set> *rfds, <fd_set> *wfds, <fd_set> *efds, struct <timeval> *tv);
+Header:	NetLib -	sys/select.h
+	Sockets -	socklib.h
+	UnixLib -	sys/select.h
+
+Returns:	number of ready descriptors, or EOF if error
+
+#include desc_Select

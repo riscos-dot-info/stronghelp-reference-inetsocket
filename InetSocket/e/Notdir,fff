@@ -1,0 +1,8 @@
+ENOTDIR
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Not a directory
+Value:		20
+#Wrap
+
+The operation can only be performed on directories.

@@ -1,0 +1,8 @@
+EISDIR
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Is a directory
+Value:		21
+#Wrap
+
+The operation cannot be performed on directories.

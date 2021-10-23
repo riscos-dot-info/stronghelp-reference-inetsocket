@@ -1,0 +1,8 @@
+SO_ERROR (&1007)
+#Parent SOL_SOCKET
+#Wrap off
+Meaning:	Returns the last error on the socket
+Value:		&1007 (Read-only)
+#Wrap
+
+Returns the Unix error code for any error which has occurred on the socket, and clears the sockets error flag.

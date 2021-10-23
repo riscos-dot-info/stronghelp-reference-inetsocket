@@ -1,0 +1,8 @@
+EINPROGRESS
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Operation now in progress
+Value:		36
+#Wrap
+
+The operation requested is still running.

@@ -1,0 +1,8 @@
+Socket_Recvmsg  (&41207)  recvmsg()
+#Parent !Root
+=>	R0 =	Socket descriptor
+ 	R1 =	Pointer to <message descriptor=>msghdr>
+ 	R2 =	<Flags=>MSG_>
+<=	R0 =	Amount of data received
+
+#include desc_recvmsg

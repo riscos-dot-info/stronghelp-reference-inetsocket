@@ -1,0 +1,7 @@
+# This file is included from elsewhere
+This call polls a specified groups of sockets to see which are ready for reading, which are ready for writing and which had exceptional conditions pending. Exceptions, with TCP, imply OOB data arrival.
+
+The number of file descriptors is the number of bits in the descriptor sets which should be considered as having meaning, so if it is 9 only the first 9 bits (descriptors 0 to 8) will be considered. This call will return as soon as one or more of the sockets being tested is ready or when a timeout occurs.
+
+#Tab
+<C definition=>Select>	<SWI definition=>Socket_Select>

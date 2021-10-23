@@ -1,0 +1,9 @@
+Socket_Send  (&41208)  send()
+#Parent !Root
+=>	R0 =	Socket descriptor
+ 	R1 =	Pointer to data to be sent
+ 	R2 =	Size of buffer
+ 	R3 =	<Flags=>MSG_>
+<=	R0 =	Amount of data sent
+
+#include desc_send

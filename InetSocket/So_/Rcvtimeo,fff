@@ -1,0 +1,8 @@
+SO_RCVTIMEO (&1006)
+#Parent SOL_SOCKET
+#Wrap off
+Meaning:	Changes the timeout for blocking receives
+Value:		&1006
+#Wrap
+
+Set the receive timeout. This is the maximum length of time that a receive call will block for before returning. The argument is a pointer to a <timeout block=>timeval>.

@@ -1,0 +1,8 @@
+FIOSLEEPTW (&80046679)
+#Parent FIO
+#Wrap off
+Meaning:	Stops a taskwindow from blocking
+Value:		&80046679
+#Wrap
+
+Enables or disables the use of <OS_Upcall 6=>OS:OS_UpCall6> during blocking operations in a taskwindow. The argument is a single word acting as a flag.

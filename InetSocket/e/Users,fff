@@ -1,0 +1,8 @@
+EUSERS
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Too many users
+Value:		68
+#Wrap
+
+There are too many users on the system. Go away.

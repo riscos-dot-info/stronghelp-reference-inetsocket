@@ -1,0 +1,5 @@
+# This file is included from elsewhere
+This is used to set a particular option on a socket. The level is either <SOL_SOCKET> for options applicable to all sockets, or a protocol number for options applicable to a certain protocol.
+
+#Tab
+<C definition=>Setsockopt>	<SWI definition=>Socket_Setsockopt>

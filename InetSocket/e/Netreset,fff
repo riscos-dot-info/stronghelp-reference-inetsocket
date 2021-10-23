@@ -1,0 +1,8 @@
+ENETRESET
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Network dropped connection on reset
+Value:		52
+#Wrap
+
+The route to the host has just vanished from under me because a computer went down (?)

@@ -1,0 +1,8 @@
+EPFNOTSUPPORT
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : <Protocol family=>PF_> not supported
+Value:		46
+#Wrap
+
+Protocol fammily is not supported by this operating system.

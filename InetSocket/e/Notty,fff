@@ -1,0 +1,8 @@
+ENOTTY
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Not a typewriter
+Value:		25
+#Wrap
+
+This means you can't perform the operation to a non-terminal (eg /dev/audio).

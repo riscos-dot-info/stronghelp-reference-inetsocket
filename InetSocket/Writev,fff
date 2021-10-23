@@ -1,0 +1,9 @@
+writev()  Socket_Writev  (&41217)
+#Parent !Root
+Syntax:	int socketwritev(int s, struct <iovec> *iov, int iovcnt);
+Header:	Sockets -	socklib.h
+	UnixLib -	sys/uio.h
+
+Returns:	amount of data written
+
+#include desc_writev

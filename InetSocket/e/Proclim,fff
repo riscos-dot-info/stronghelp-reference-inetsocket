@@ -1,0 +1,8 @@
+EPROCLIM
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Too many processes
+Value:		67
+#Wrap
+
+You have reached you limitted number of processes.

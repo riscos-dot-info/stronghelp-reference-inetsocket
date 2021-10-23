@@ -1,0 +1,8 @@
+SO_BROADCAST (&20)
+#Parent SOL_SOCKET
+#Wrap off
+Meaning:	Changes whether the socket can broadcast or not
+Value:		&20
+#Wrap
+
+Enable or disable sending of broadcast packets through this socket.

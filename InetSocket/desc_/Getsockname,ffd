@@ -1,0 +1,5 @@
+# This file is included from elsewhere
+This call returns the local address that the socket is bound to (if any) in the supplied address block.
+
+#Tab
+<C definition=>Getsockname>	<SWI definition=>Socket_Getsockname>

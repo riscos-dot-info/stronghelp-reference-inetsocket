@@ -1,0 +1,8 @@
+ESTALE
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Stale NFS file handle
+Value:		70
+#Wrap
+
+The file handle you've given was once valid. It's not now - don't try doing things to files you've closed or mounted hosts that don't exist.

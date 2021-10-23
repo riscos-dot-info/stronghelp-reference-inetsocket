@@ -1,0 +1,8 @@
+ENOMEM
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Not enough core
+Value:		12
+#Wrap
+
+The operation caused us to run out of memory.

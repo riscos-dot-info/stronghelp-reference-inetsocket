@@ -1,0 +1,8 @@
+ELOOP
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Too many levels of symbolic links
+Value:		62
+#Wrap
+
+You've probably made a loop. Go away and break it.

@@ -1,0 +1,8 @@
+E2BIG
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Argument list too long
+Value:		7
+#Wrap
+
+The argument list passed was too long (!).

@@ -1,0 +1,8 @@
+SO_RCVLOWAT (&1004)
+#Parent SOL_SOCKET
+#Wrap off
+Meaning:	Changes the low water mark of the receive buffer
+Value:		&1004
+#Wrap
+
+Set the low water mark of the receive buffer. The stack will always try and return at least this many bytes on a read, blocking if necessary.

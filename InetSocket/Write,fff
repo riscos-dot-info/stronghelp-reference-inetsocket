@@ -1,0 +1,10 @@
+write()  Socket_Write  (&41214)
+#Parent !Root
+Syntax:	Sockets - int socketwrite (int s, char *buf, int len);
+	UnixLib - __ssize_t write (int s, const void *buf, size_t len);
+Header:	Sockets -	socklib.h
+	UnixLib -	sys/unistd.h
+
+Returns:	amount of data written, or EOF if failed
+
+#include desc_write

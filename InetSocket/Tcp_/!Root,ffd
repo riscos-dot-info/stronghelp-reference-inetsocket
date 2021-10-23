@@ -1,0 +1,12 @@
+TCP protocol (6)
+#Parent !Root
+Meaning:	Transmission Control Protocol
+Value:		6
+
+The TCP protocol is used to specify generic options for the protocol. Options which may be used under <Socket_Setsockopt> or <Socket_Getsockopt> are :
+
+#Tab
+Value	Meaning
+#Line
+1	<TCP_NODELAY>
+2	<TCP_MAXSEG>

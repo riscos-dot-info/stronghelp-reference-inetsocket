@@ -1,0 +1,8 @@
+EOPNOTSUPP
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Operation not supported on socket
+Value:		45
+#Wrap
+
+This operation is not supported for sockets.

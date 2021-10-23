@@ -1,0 +1,10 @@
+Socket_Send  (&41208)  send()
+#Parent !Root
+Syntax:	int send(int s, char *msg, int len, int <flags=>MSG_>, struct <sockaddr> *to, int tolen);
+Header:	NetLib -	sys/socket.h
+	Sockets -	socklib.h
+	UnixLib -	sys/socket.h
+
+Returns:	amount of data sent, or EOF if error
+
+#include desc_Send

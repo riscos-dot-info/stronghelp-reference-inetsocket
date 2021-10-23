@@ -1,0 +1,10 @@
+bind()  Socket_Bind  (&41201)
+#Parent !Root
+Syntax:	int bind (int s, struct <sockaddr> * name, int namelen);
+Header:	NetLib -	sys/socket.h
+	Sockets -	socklib.h
+	UnixLib -	sys/socket.h
+
+Returns:	0 for success, EOF if failed
+
+#include desc_Bind

@@ -1,0 +1,8 @@
+ETIMEDOUT
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Connection timed out
+Value:		60
+#Wrap
+
+The socket didn't connect within the time limit.

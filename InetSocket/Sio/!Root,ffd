@@ -1,0 +1,9 @@
+Socket, interface and routing control operations
+#Parent !Root
+Socket operations allow access to a lower level of the socket.
+Routing operations allow manipulation of the routing table.
+Interface operations allow manipulator of the interface table. 
+
+Use <Socket_Ioctl> to perform these operations.
+
+#include SIO_ops

@@ -1,0 +1,8 @@
+MSG_PEEK (&2)
+#Parent MSG_
+#Wrap off
+Meaning:	Only examine data
+Value:		2
+#Wrap
+
+This flag should be set to examine data, rather than reading it using <Socket_Recv>.

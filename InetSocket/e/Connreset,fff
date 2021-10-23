@@ -1,0 +1,8 @@
+ECONNRESET
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Connection reset by peer
+Value:		54
+#Wrap
+
+A router has decreed that the other end no longer exists and has severed the connection.

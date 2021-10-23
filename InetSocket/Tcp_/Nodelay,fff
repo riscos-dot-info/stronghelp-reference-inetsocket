@@ -1,0 +1,8 @@
+TCP_NODELAY (1)
+#Parent TCP_
+#Wrap off
+Meaning:	Changes whether the Nagle algorithm is used
+Value:		1
+#Wrap
+
+Disable the Nagle algorithm for this connection, to ensure that data is always sent immediately. When enabled packets are coalecsed together to ensure that they are sent in chunks rather than individually.

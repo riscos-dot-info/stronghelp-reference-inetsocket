@@ -1,0 +1,6 @@
+Shutdown directions
+Value	Meaning
+#line
+0	shut down the receive side
+1	shut down the send side
+2	shut down both sides of the socket

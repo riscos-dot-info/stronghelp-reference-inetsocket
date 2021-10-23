@@ -1,0 +1,10 @@
+getpeername()  Socket_Getpeername  (&4120E)
+#Parent !Root
+Syntax:	int getpeername(int s, struct <sockaddr> *name, int *namelen);
+Header:	NetLib -	sys/socket.h
+	Sockets -	socklib.h
+	UnixLib -	sys/socket.h
+
+Returns:	0 for success, EOF if failed
+
+#include desc_Getpeername

@@ -1,0 +1,5 @@
+# This file is included from elsewhere
+Perform a partial on a stream socket. This call is able to shut down either the send or received side of the socket, or both.
+
+#Tab
+<C definition=>Shutdown>	<SWI definition=>Socket_Shutdown>

@@ -1,0 +1,5 @@
+Socket_Gettsize  (&41218)  FD_SETSIZE
+#Parent !Root
+<=	R0 =	Number of descriptors available
+
+#include desc_FD_SETSIZE

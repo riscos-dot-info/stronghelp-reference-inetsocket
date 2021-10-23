@@ -1,0 +1,10 @@
+shutdown()  Socket_Shutdown  (&4120B)
+#Parent !Root
+Syntax:	int shutdown (int s, int <how=>desc_shutdown_dir>);
+Header:	NetLib -	(unprototyped)
+	Sockets -	socklib.h
+	UnixLib -	sys/socket.h
+
+Returns:	0 for success, EOF if failed
+
+#include desc_shutdown

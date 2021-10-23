@@ -1,0 +1,8 @@
+FIONBIO (&8004667E)
+#Parent FIO
+#Wrap off
+Meaning:	Selects a socket as being non-blocking
+Value:		&8004667E
+#Wrap
+
+Enable or disable non-blocking on the socket. The argument is a single word acting as a flag.

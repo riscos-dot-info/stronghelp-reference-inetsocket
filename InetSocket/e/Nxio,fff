@@ -1,0 +1,8 @@
+ENXIO
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : No such device or address
+Value:		6
+#Wrap
+
+The I/O device specified does not exist.

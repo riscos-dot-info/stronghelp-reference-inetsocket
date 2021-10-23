@@ -1,0 +1,8 @@
+EPROTOTYPE
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Protocol wrong type for socket
+Value:		41
+#Wrap
+
+Protocol is not applicable to this kind of socket.

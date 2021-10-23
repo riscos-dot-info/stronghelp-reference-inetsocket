@@ -1,0 +1,10 @@
+sendto()  Socket_Sendto  (&41209)
+#Parent !Root
+Syntax:	int sendto(int s, char *msg, int len, int <flags=>MSG_>, const struct <sockaddr> *to, int tolen);
+Header:	NetLib -	sys/socket.h
+	Sockets -	socklib.h
+	UnixLib -	sys/socket.h
+
+Returns:	amount of data sent, or EOF if error
+
+#include desc_sendto

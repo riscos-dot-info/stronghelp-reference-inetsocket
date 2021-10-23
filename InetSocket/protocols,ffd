@@ -1,0 +1,15 @@
+Internet protocols
+\#	Name	Meaning
+#Line
+0	IP	<Internet Protocol=>IP_>, pseudo protocol number
+1	ICMP	Internet Control Message Protocol
+3	GGP	Gateway-Gateway Protocol
+6	TCP	<Transmission Control Protocol=>TCP_>
+8	EGP	Exterior Gateway Protocol
+12	PUP	PARC Universal Packet Protocol
+17	UDP	User Datagram Protocol
+20	HMP	Host Monitoring Protocol
+22	IDP	Xerox NS IDP
+27	RDP	"Reliable Datagram" Protocol
+
+You are most likely to want to use only TCP, IP, and UDP.

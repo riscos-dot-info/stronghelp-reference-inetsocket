@@ -1,0 +1,56 @@
+Common internet services
+#Tab ,,fCode,
+Port	Names		Protos	Meaning
+#Line
+7	echo		tu	Echo (RFC 862)
+9	discard sink null	tu	Discard (RFC 863)
+13	daytime		tu	Daytime (RFC 867)
+15	netstat		t	Network statistics
+17	qotd quote	tu	Quote of the Day (RFC 865)
+19	chargen ttytst source	tu	Character Generator (RFC 864)
+20	ftp-data	tu	File Transfer [Default Data]
+21	ftp		tu	File Transfer [Control] (RFC 959)
+23	telnet		tu	Telnet (RFC 854)
+25	smtp mail	tu	Simple Mail Transfer (RFC 821)
+37	time timserver	tu	Time (RFC 868)
+43	nicname whois	tu	Who Is (RFC 954)
+53	domain nameserver	tu	Domain Name Server (RFC 1034)
+69	tftp		tu	Trivial File Transfer (RFC 1350)
+70	gopher		tu	Gopher (RFC 1436)
+79	finger		tu	Finger (RFC 1288)
+80	www http	tu	World Wide Web HTTP (RFC 1945)
+87	ttylink		tu	any private terminal link
+88	kerberos	tu	Kerberos (RFC 1964)
+107	rtelnet		tu	Remote Telnet Service
+109	pop2		tu	Post Office Protocol - Version 2 (RFC 937)
+110	pop3		tu	Post Office Protocol - Version 3 (RFC 1939)
+113	auth authentication	tu	Authentication Service (RFC 931)
+115	sftp		tu	Simple File Transfer Protocol (RFC 913)
+119	nntp readnews untp	tu	Network News Transfer Protocol (RFC 977)
+123	ntp		tu	Network Time Protocol (RFC 958)
+143	imap2 imap imap4	tu	Internet Mail Access Protocol (RFC 1176, RFC 1730)
+177	xdmcp		tu	X Display Manager Control Protocol
+194	irc		tu	Internet Relay Chat Protocol (RFC 1459)
+220	imap3		tu	Internet Mail Access Protocol (RFC 1203)
+512	exec		t	remote process execution (authenticated by ports)
+512	biff comsat	u	mail system use to notify users of new mail received
+513	login		t	remote login like telnet (authenticated by distributed databases)
+513	who whod	u	who is logged in
+514	cmd shell	t	remote process execution (authenticated by distributed databases)
+514	syslog		u	system logging
+515	printer spooler	tu	line printer spooler
+517	talk		tu	rendezvous port for talk protocol
+518	ntalk		tu	dirivative of talk
+533	netwall		tu	for emergency broadcasts
+556	remotefs rfs_server rfs	tu	Brunhoff remote filesystem
+557	rdisc rfs_server	t	Acorn remote disc server
+565	whoami whoami	tu	whoami
+
+Acorn specific services :
+32768	aun-data	u	
+32769	aun-atp		u	
+32770	freeway1	u	
+32771	freeway2	u	
+49171	sharefs		u	
+
+Click <here=>services-all> for a more complete list.

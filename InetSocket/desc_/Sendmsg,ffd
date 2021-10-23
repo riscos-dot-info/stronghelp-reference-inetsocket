@@ -1,0 +1,5 @@
+# This file is included from elsewhere
+This call behaves in the same way as <Socket_Sendto> or <sendto>(), except that the message descriptor is used to indicate where the address should be taken from and to give a list of buffers containing the data in.
+
+#Tab
+<C definition=>Sendmsg>	<SWI definition=>Socket_Sendmsg>

@@ -1,0 +1,11 @@
+Socket_Recvfrom  (&41206)  recvfrom()
+#Parent !Root
+=>	R0 =	Socket descriptor
+	R1 =	Pointer to buffer for received data
+	R2 =	Size of buffer
+	R3 =	<Flags=>MSG_>
+	R4 =	Pointer to <address=>sockaddr> to be filled in
+	R5 =	Pointer to size of address block
+<=	R0 =	Amount of data received
+
+#include desc_recvfrom

@@ -1,0 +1,8 @@
+SO_REUSEADDR (&4)
+#Parent SOL_SOCKET
+#Wrap off
+Meaning:	Changes the use of TIME_WAIT on disconnect
+Value:		&4
+#Wrap
+
+Enables or disables the reuse of local addresses during the wait period that normally occurs when a TCP stream socket is closed. The argument is a single word which contains zero to disable this option, or a non-zero value to enable it.

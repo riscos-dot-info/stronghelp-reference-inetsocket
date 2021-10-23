@@ -1,0 +1,8 @@
+Socket_Getsockname  (&4120F)  getsockname()
+#Parent !Root
+=>	R0 =	Socket descriptor
+	R1 =	Pointer to <address=>sockaddr> to be filled in
+	R2 =	Pointer to word giving the size of the address block
+<=	R0 corrupted
+
+#include desc_getsockname

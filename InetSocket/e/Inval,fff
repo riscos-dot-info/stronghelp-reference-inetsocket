@@ -1,0 +1,8 @@
+EINVAL
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Invalid argument
+Value:		22
+#Wrap
+
+Bad argument passed to routine.

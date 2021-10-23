@@ -1,0 +1,8 @@
+EMLINK
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Too many links
+Value:		31
+#Wrap
+
+There are too many links on this filesystem.

@@ -1,0 +1,5 @@
+# This file is included from elsewhere
+This call can be used to read the current value of any of the options set using <Socket_Setsockopt> or <setsockopt>().
+
+#Tab
+<C definition=>Getsockopt>	<SWI definition=>Socket_Getsockopt>

@@ -1,0 +1,8 @@
+Socket_Readv  (&41216)  readv()
+#Parent !Root
+=>	R0 =	Socket descriptor
+	R1 =	Pointer to array of <buffer descriptors=>iovec>
+	R2 =	Number of buffer descriptors
+<=	R0 =	Amount of data received
+
+#include desc_readv

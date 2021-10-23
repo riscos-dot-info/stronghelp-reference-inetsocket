@@ -1,0 +1,11 @@
+Socket_Sendto  (&41209)  sendto()
+#Parent !Root
+=>	R0 =	Socket descriptor
+	R1 =	Pointer to data to be sent
+	R2 =	Size of buffer
+	R3 =	<Flags=>MSG_>
+	R4 =	Pointer to <address=>sockaddr> to send to
+	R5 =	Size of address block
+<=	R0 =	Amount of data sent
+
+#include desc_sendto

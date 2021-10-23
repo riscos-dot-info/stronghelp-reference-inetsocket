@@ -1,0 +1,10 @@
+recvmsg()  Socket_Recvmsg  (&41207)
+#Parent !Root
+Syntax:	int recvmsg(int s, struct <msghdr> *msg, int <flags=>MSG_>);
+Header:	NetLib -	sys/socket.h
+	Sockets -	socklib.h
+	UnixLib -	sys/socket.h
+
+Returns:	Amount of data received
+
+#include desc_recvmsg

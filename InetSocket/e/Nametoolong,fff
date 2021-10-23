@@ -1,0 +1,8 @@
+ENAMETOOLONG
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Filename too long
+Value:		63
+#Wrap
+
+The name given is too long for this filing system.

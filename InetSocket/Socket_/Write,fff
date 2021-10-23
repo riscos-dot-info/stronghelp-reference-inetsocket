@@ -1,0 +1,8 @@
+Socket_Write  (&41214)  write()
+#Parent !Root
+=>	R0 =	Socket descriptor
+	R1 =	Pointer to data to be sent
+	R2 =	Size of buffer
+<=	R0 =	Amount of data sent
+
+#include desc_write

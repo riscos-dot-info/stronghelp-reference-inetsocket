@@ -1,0 +1,8 @@
+EALREADY
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Operation already in progress
+Value:		37
+#Wrap
+
+The operation requested is already running; don't try to do it again.

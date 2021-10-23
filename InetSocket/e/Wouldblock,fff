@@ -1,0 +1,8 @@
+EWOULDBLOCK
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Operation would block
+Value:		35
+#Wrap
+
+The operation requested would block, but you've asked for a non-blocking connection.

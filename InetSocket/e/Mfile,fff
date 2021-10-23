@@ -1,0 +1,8 @@
+EMFILE
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Too many open files
+Value:		24
+#Wrap
+
+There are just too many files open. Go and close some now.

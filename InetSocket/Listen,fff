@@ -1,0 +1,10 @@
+listen()  Socket_Listen  (&41202)
+#Parent !Root
+Syntax:	int listen (int s, int backlog);
+Header:	NetLib -	sys/socket.h
+	Sockets -	socklib.h
+	UnixLib -	sys/socket.h
+
+Returns:	0 for success, EOF if failed
+
+#include desc_Listen

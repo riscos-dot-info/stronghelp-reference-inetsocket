@@ -1,0 +1,8 @@
+FIONREAD (&4004667F)
+#Parent FIO
+#Wrap off
+Meaning:	Reads the number of bytes available on the socket
+Value:		&4004667F
+#Wrap
+
+Reads the number of bytes available for reading from the socket. The argument will be filled in with the number of bytes available.

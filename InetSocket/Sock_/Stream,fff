@@ -1,0 +1,8 @@
+SOCK_STREAM (1)
+#Parent Sock_
+#Wrap off
+Meaning:	<Socket type=>sock_> is streaming
+Value:		1
+#Wrap
+
+Stream orientated connections providing bi-directional sequenced, reliable transfer of byte streams. The only protocol of this type currently supported is the transmission control protocol (TCP).

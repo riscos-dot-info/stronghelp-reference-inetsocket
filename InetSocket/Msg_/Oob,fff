@@ -1,0 +1,8 @@
+MSG_OOB (&1)
+#Parent MSG_
+#Wrap off
+Meaning:	Send or read 'out-of-band' data instead of normal data
+Value:		1
+#Wrap
+
+This flag should be set to read 'out-of-band' data using <Socket_Recv> or send 'out-of-band' data using <Socket_Send>.

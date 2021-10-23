@@ -1,0 +1,9 @@
+stat()  Socket_Stat  (&41215)
+#Parent !Root
+Syntax:	int stat(int s, struct stat *buf);
+Header:	Sockets -	socklib.h
+	UnixLib -	sys/stat.h
+
+Returns:	0 for success, EOF if failed
+
+#include desc_stat

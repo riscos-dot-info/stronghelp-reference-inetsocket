@@ -1,0 +1,11 @@
+# This page is not an error - it is #included from elsewhere
+#Tab
+Value		Name		Meaning
+#Line
+&4004667F	<FIONREAD>	Read number of bytes awaiting reception
+&8004667E	<FIONBIO>	Select non-blocking connection
+&8004667D	<FIOASYNC>	Select asynchronous connection
+&8004667C	FIOSETOWN	Set owner of connection
+&8004667B	FIOGETOWN	Get owner of connection
+&8004667A	FIORXDIR	Select direct reception
+&80046679	<FIOSLEEPTW>	Allow sleeps in taskwindows

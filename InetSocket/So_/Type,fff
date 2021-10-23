@@ -1,0 +1,8 @@
+SO_TYPE (&1008)
+#Parent SOL_SOCKET
+#Wrap off
+Meaning:	Returns the socket type
+Value:		&1008 (Read-only)
+#Wrap
+
+Returns the socket type set when the socket was created.

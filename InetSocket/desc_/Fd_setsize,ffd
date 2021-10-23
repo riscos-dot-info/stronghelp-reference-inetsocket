@@ -1,0 +1,5 @@
+# This file is included from elsewhere
+This returns the number of descriptors available to the caller, including those currently in use.
+
+#Tab
+<C definition=>FD_SETSIZE>	<SWI definition=>Socket_Gettsize>

@@ -1,0 +1,14 @@
+Message buffer descriptors (struct iovec)
+#Parent recvmsg
+Offset	Contents
+#Line
+0	Pointer to buffer for data
+4	Size of buffer
+
+Or in C :
+
+#fCode; Wrap off
+struct iovec \{
+  char *iov_base;  /* start of block */
+  int   iov_len;   /* length of block */
+\};

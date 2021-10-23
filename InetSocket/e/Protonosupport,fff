@@ -1,0 +1,8 @@
+EPROTONOSUPPORT
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Protocol not supported
+Value:		43
+#Wrap
+
+Protocol is not supported by this operating system.

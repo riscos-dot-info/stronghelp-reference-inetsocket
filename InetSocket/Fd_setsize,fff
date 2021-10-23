@@ -1,0 +1,12 @@
+FD_SETSIZE  Socket_Gettsize  (&41218)
+#Parent !Root
+Syntax:	NetLib -	FD_SETSIZE
+	Sockets -	int getstablesize (void)
+	UnixLib -	FD_SETSIZE
+Header:	NetLib -	sys/select.h
+	Sockets -	socklib.h
+	UnixLib -	sys/select.h
+
+Returns:	number of sockets available
+
+#include desc_FD_SETSIZE

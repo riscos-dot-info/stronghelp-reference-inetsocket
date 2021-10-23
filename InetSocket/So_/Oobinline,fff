@@ -1,0 +1,8 @@
+SO_OOBINLINE (&100)
+#Parent SOL_SOCKET
+#Wrap off
+Meaning:	Changes whether the OOB data is sent inline
+Value:		&100
+#Wrap
+
+Control whether OOB data is received inline withthe normal data, or out of line as a separate data stream.

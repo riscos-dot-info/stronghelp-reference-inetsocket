@@ -1,0 +1,11 @@
+read()  Socket_Read  (&41213)
+#Parent !Root
+Syntax:	Sockets -	int socketread (int s, char *buf, int len);
+	UnixLib -	__ssize_t read (int s, void *buf, size_t len);
+
+Header:	Sockets -	socklib.h
+	UnixLib -	unistd.h
+
+Returns:	amount of data received, or EOF if error
+
+#include desc_Read

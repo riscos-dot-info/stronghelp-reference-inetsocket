@@ -1,0 +1,10 @@
+Socket_Select  (&41211)  select()
+#Parent !Root
+=>	R0 =	Number of descriptors to consider in each set
+	R1 =	Pointer to read <descriptor set=>fd_set>
+	R2 =	Pointer to write <descriptor set=>fd_set>
+	R3 =	Pointer to exception <descriptor set=>fd_set>
+	R4 =	Pointer to <timeout block=>timeval>, or 0 to block until a descriptor is ready
+<=	R0 =	Number of ready descriptors
+
+#include desc_select

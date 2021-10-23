@@ -1,0 +1,8 @@
+EBADF
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Bad file number
+Value:		9
+#Wrap
+
+The file descriptor does not exist or has been unallocated.

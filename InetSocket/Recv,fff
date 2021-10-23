@@ -1,0 +1,10 @@
+recv()  Socket_Recv (&41205)
+#Parent !Root
+Syntax:	int recv (int s, char *msg, int len, int <flags=>MSG_>);
+Header:	NetLib -	sys/socket.h
+	Sockets -	socklib.h
+	UnixLib -	sys/socket.h
+
+Returns:	amount of data received, or EOF if error
+
+#include desc_Recv

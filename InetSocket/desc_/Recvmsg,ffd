@@ -1,0 +1,5 @@
+# This file is included from elsewhere
+This call behaves in the same way as <Socket_Recvfrom>, except that the message descriptor is used to indicate where the address should be placed and to give a list of buffers to return the data in.
+
+#Tab
+<C definition=>Recvmsg>	<SWI definition=>Socket_Recvmsg>

@@ -1,0 +1,8 @@
+EXDEV
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Cross device link
+Value:		18
+#Wrap
+
+You can't create hard links across devices.

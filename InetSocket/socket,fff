@@ -1,0 +1,10 @@
+socket()  Socket_Creat  (&41200)
+#Parent !Root
+Syntax:	int socket (int <afamily=>AF_>, int <type=>Sock_>, int <protocol=>PF_>);
+Header:	NetLib -	sys/socket.h
+	Sockets -	socklib.h
+	UnixLib -	sys/socket.h
+
+Returns:	socket descriptor of new socket, or EOF if failed to create
+
+#include desc_socket

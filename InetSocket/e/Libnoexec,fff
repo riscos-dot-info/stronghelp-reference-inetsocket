@@ -1,0 +1,8 @@
+ELIBNOEXEC
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Shared library exec format error
+Value:		86
+#Wrap
+
+The shared library is not for this archtecture or operating system.

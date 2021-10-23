@@ -1,0 +1,8 @@
+ETOOMANYREFS
+#Parent E
+#Wrap off
+Meaning:	<Error=>E> : Too many references: can't splice
+Value:		59
+#Wrap
+
+We've run out of space for the outgoing packets and I can't split the current one into little chunks to send. Help! I'll probably be giving you <ENOBUFS> soon too.
