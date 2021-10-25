@@ -24,4 +24,4 @@ AF_LAT		14	LAT
 AF_HYLINK	15	NSC Hyperchannel
 AF_APPLETALK	16	AppleTalk protocols
 
-AF_MAX		17	number of protocols avialable
+AF_MAX		17	number of protocols available

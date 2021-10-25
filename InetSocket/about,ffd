@@ -1,4 +1,4 @@
-Internet manual
+Internet Sockets manual
 #Align Centre
 {fh3}Internet Sockets manual{f}
 #Line
@@ -12,17 +12,14 @@ This manual is part of a collection comprising the main public domain programmin
 <InetSocket>	Internet socket calls
 <MiscSWIs>	Miscellaneous SWIs
 <VDU>		VDU commands
-<Toolbox>	Toolbox (by Neil Bingham)
+<Toolbox>	Toolbox
 #Indent
 
-For comments, suggestions and submissions for these, please mail Justin Fletcher <\<gerph@innocent.com\>=>#URL mailto:gerph@innocent.com> who is currently moderating the collection. The primary location for these manuals will be <http://freenet.barnet.ac.uk/manuals/=>#URL http://freenet.barnet.ac.uk/manuals/>.
+Thanks go to those mentioned in the <contributors=>OS:contributions> list.
 
-Hopefully, this manual should cover the everything that the other manuals have, as well as extra ground which is useful to authors.
-
-#fH4:Dedication
-This manual came about mostly because of the hard work put into developing the Internet stack and it's related software. There is no real need to mention all their names here - they and we know who they are. It is to them, and the authors who write freeware internet software, that I dedicate this manual.
-
-Click <here=>.hist106> for history information.
+These manuals are kindly hosted by <www.riscos.info=>#url http://www.riscos.info/downloads/stronghelp/manuals/>
+#line
+<This page=>.hist107> gives history and credits.
 #
 #Subpage hist102
 History for Inet v1.02
@@ -60,7 +57,7 @@ History for InetSocket v1.04
 #Subpage hist105
 History for InetSocket v1.05
 #Align Right
-{/}21 Jan 1998-22 Mar 1998{/}
+{/}22 Mar 1998{/}
 #Align Left
 è	Fixed details about Select and events when urgent or exceptional conditions occur.
 è	Added buttons for entering function names (SH 2.53 only) - this is still experimental
@@ -73,10 +70,25 @@ History for InetSocket v1.05
 #Subpage hist106
 History for InetSocket v1.06
 #Align Right
-{/}20 Jul 1998-{/}
+{/}20 Jul 1998{/}
 #Align Left
 è	Added 'notfound_{/}manual{/}' pages, for StrongHelp 2.60.
 è	Removed buttons - you can shift click things now.
 è	HTML conversion identified lots of 'parent' problems.
 
-<Previous history=>.hist105>
+#tab
+<Previous history=>.hist105>	<Next history=>.hist107>
+#
+#Subpage hist107
+History for InetSocket v1.07
+#Align Right
+{/}09 Aug 2018{/}
+#Align Left
+è	Internet event subreason 5 added, cleared up missing detail on other subreasons.
+è	Added missing <Sysctl=>Socket_Sysctl>, <Version=>Socket_Version> and InternalLookup SWIs which were added for Internet 5.
+è	Changed hosting link to www.riscos.info
+è	Filled in missing <Stat=>Socket_Stat> details.
+è	Return result of <recv()=>Recv> and <recvfrom()=>Recvfrom> clarified in the non blocking error case.
+è	Filled in missing <MSG_> flag bit definitions
+
+<Previous history=>.hist106>

@@ -1,0 +1,9 @@
+sysctl()  Socket_Sysctl  (&4121A)
+#Parent !Root
+Syntax:	int sysctl(int *name, unsigned int namelen, void *oldp, size_t *oldlenp, void *newp, size_t newlen);
+Header:	Sockets -	socklib.h
+	UnixLib -	sys/sysctl.h
+
+Returns:	0 for success, EOF if failed
+
+#include desc_sysctl

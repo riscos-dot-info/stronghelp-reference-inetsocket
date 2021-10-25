@@ -1,5 +1,5 @@
 # This file is included from elsewhere
-This call reads as much data as possible from the specified socket, and returns it in the supplied buffer. If no data is available, the call will block until data is available, unless the socket has been marked non-blocking, in which case <EWOULDBLOCK> will be returned.
+This call reads as much data as possible from the specified socket, and returns it in the supplied buffer. If no data is available, the call will block until data is available, unless the socket has been marked non-blocking, in which case -1 will be returned and errno set to <EWOULDBLOCK>.
 
 For stream sockets, this call may return zero as an indication that the other end has closed the connection.
 

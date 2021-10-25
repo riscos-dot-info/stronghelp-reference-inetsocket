@@ -1,6 +1,6 @@
 Socket_Send  (&41208)  send()
 #Parent !Root
-Syntax:	int send(int s, char *msg, int len, int <flags=>MSG_>, struct <sockaddr> *to, int tolen);
+Syntax:	int send(int s, char *msg, int len, int <flags=>MSG_>);
 Header:	NetLib -	sys/socket.h
 	Sockets -	socklib.h
 	UnixLib -	sys/socket.h

@@ -1,5 +1,5 @@
 File I/O control operations
 #Parent !Root
-Certain file operations may be applied to sockets, although not all have a clear meaning under RiscOS. Use <Socket_Ioctl> to perform these operations
+Certain file operations may be applied to sockets, although not all have a clear meaning under RISC OS. Use <Socket_Ioctl> to perform these operations
 
 #include FIO_ops

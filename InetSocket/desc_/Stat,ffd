@@ -1,5 +1,8 @@
 # This file is included from elsewhere
-(I have no documentation on this call)
+The only meaningful fields of the status structure filled in when stat() is applied to a socket are st_mode and st_blksize.
+
+st_mode equals S_IFSOCK if the descriptor given is recognised as a socket descriptor.
+st_blksize gives the preferred send buffer size to use for the protocol (or 0 if unknown) which can improve performance by reducing fragmentation.
 
 #Tab
 <C definition=>Stat>	<SWI definition=>Socket_Stat>

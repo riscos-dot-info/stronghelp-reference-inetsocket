@@ -1,3 +1,7 @@
 Socket_Stat  (&41215)  stat()
 #Parent !root
+=>	R0 =	Socket descriptor
+	R1 =	Pointer to a status structure
+<=	R0 corrupted
+
 #include desc_stat

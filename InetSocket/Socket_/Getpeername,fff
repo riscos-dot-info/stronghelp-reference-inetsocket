@@ -1,7 +1,7 @@
 Socket_Getpeername  (&4120E)  getpeername()
 #Parent !Root
 =>	R0 =	Socket descriptor
-	R1 =	<Pointer to address to be filled in=>sockaddr>
+	R1 =	Pointer to <address=>sockaddr> to be filled in
 	R2 =	Pointer to size of the address block (usually 16)
 <=	R0 corrupted
 

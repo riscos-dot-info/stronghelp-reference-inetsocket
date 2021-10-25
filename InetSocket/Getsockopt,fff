@@ -1,6 +1,6 @@
 getsockopt()  Socket_Getsockopt  (&4120D)
 #Parent !Root
-Syntax:	int getsockopt (int s, int level, int optname, char *optval, int *optlen);
+Syntax:	int getsockopt (int s, int level, int optname, void *optval, int *optlen);
 Header:	NetLib -	sys/socket.h
 	Sockets -	socklib.h
 	UnixLib -	sys/socket.h

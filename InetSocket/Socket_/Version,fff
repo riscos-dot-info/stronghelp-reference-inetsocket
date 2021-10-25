@@ -1,0 +1,5 @@
+Socket_Version  (&41222)
+#Parent !Root
+<=	R0 =	100 * Internet module version
+
+This SWI was added in Internet 5.04.

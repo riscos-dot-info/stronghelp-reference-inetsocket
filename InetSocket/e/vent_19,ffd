@@ -2,16 +2,18 @@ Internet activity event (19)
 #Parent !Root
 =>	R0 =	19 (event number)
 	R1 =	<Event reason=>.code>
-	R2 =	Socket descriptor
-
-This event is raised only for sockets who have enabled it using <Socket_Ioctl> or <ioctl>() <FIOASYNC>.
+	R2 =	Depends on reason code
+	R3 =	Depends on reason code
 #Subpage code
 Internet event reasons
 Code	Meaning
 #Line
-1	Socket has input waiting to be read
-2	An 'urgent' event has occured (eg arrival of OOB data)
-3	Sockets connection has been broken
-4	RevARP reply ?
+1	Socket has input waiting to be read (R2 = socket, R3 = port)
+2	An 'urgent' event has occured, eg. arrival of OOB data (R2 = socket, R3 = port)
+3	Socket's connection has been broken (R2 = socket, R3 = port)
+4	RevARP reply (R2 = IPv4 of replying server, R3 = IPv4 of requesting server)
+5	RevARP request pre Internet module configuration (R2 = mbuf chain, R3 = interface's SWI base)
 
 Urgent events equate to those which would be flagged as 'exception' from <select>() or <Socket_Select>. For TCP, this implies the arrival of OOB data.
+
+Events 1 to 3 are raised only for sockets who have enabled it using <Socket_Ioctl> or <ioctl>() <FIOASYNC>. The port number is only given with Internet 5.04 or later versions.

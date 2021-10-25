@@ -1,0 +1,3 @@
+Socket_Sysctl  (&4121A)  sysctl()
+#Parent !root
+#include desc_sysctl

@@ -1,6 +1,7 @@
 stat()  Socket_Stat  (&41215)
 #Parent !Root
-Syntax:	int stat(int s, struct stat *buf);
+Syntax:	Sockets - int socketstat(int s, struct stat *buf);
+	UnixLib - int fstat(int s, struct stat *buf);
 Header:	Sockets -	socklib.h
 	UnixLib -	sys/stat.h
 

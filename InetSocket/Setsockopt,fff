@@ -1,6 +1,6 @@
 Socket_Setsockopt  (&4120C)  setsockopt()
 #Parent !Root
-Syntax:	int setsockopt(int s, int level, int optname, char *optval, int optlen);
+Syntax:	int setsockopt(int s, int level, int optname, const void *optval, int optlen);
 Header:	NetLib -	sys/socket.h
 	Sockets -	socklib.h
 	UnixLib -	sys/socket.h

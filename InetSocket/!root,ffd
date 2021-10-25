@@ -11,6 +11,7 @@ Internet calls
 <Getsockname>
 <Getsockopt>
 <Gettsize>
+InternalLookup
 <Ioctl>
 <Listen>
 <Recv>
@@ -21,15 +22,15 @@ Internet calls
 <Send>
 <Sendmsg>
 <Sendto>
-<Sendtosm>
+Sendtosm
 <Select>
 <Setsockopt>
 <Shutdown>
 <Stat>
+<Sysctl>
+<Version>
 <Write>
 <Writev>
-
-<Internet event=>event_19>
 #EndTable
 
 #Table Columns 2
@@ -38,6 +39,7 @@ Internet calls
 <Internet services=>services>
 <Error numbers=>E>
 <RFCs by number=>RFCs:!Root>
+<Internet event=>event_19>
 #EndTable
 #Line;Align Centre
-{/}<Internet sockets manual=>about>, v1.06{/}
+{/}<Internet sockets manual=>about> v1.07, 09 Aug 2018{/}
