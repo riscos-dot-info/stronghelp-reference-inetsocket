@@ -1,5 +1,5 @@
-StrongHelp Manuals
-==================
+StrongHelp Internet Sockets Reference Manual
+============================================
 
 This project contains the source files for the StrongHelp Internet Sockets reference manual [hosted on riscos.info](http://www.riscos.info/downloads/stronghelp/manuals/).
 
